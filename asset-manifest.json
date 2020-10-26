@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.343358e5.chunk.css",
+    "main.js": "/Portfolio/static/js/main.76227a66.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.76227a66.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.9e287cfb.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9e287cfb.js.map",
+    "static/js/2.a6e13211.chunk.js": "/Portfolio/static/js/2.a6e13211.chunk.js",
+    "static/js/2.a6e13211.chunk.js.map": "/Portfolio/static/js/2.a6e13211.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.44d942d9b6b99b81696679bc927689dc.js": "/Portfolio/precache-manifest.44d942d9b6b99b81696679bc927689dc.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.343358e5.chunk.css.map": "/Portfolio/static/css/main.343358e5.chunk.css.map",
+    "static/js/2.a6e13211.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a6e13211.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Portfolio/static/media/github-brands.86f1ca75.svg",
+    "static/media/photoCVBen.jpg": "/Portfolio/static/media/photoCVBen.c5d2f2bb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e287cfb.js",
+    "static/js/2.a6e13211.chunk.js",
+    "static/css/main.343358e5.chunk.css",
+    "static/js/main.76227a66.chunk.js"
+  ]
+}
