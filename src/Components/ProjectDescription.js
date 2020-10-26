@@ -1,0 +1,113 @@
+import React, { useState } from "react";
+import logo from "../Image/photoCVBen.jpg";
+
+const ProjectDescription = ({ setShowClass, showClass }) => {
+	return (
+		<div className={showClass}>
+			<div className="projectDescription">
+				<img src={logo} alt="project logo" className="projectLogo" />
+				<div className="info">
+					<button
+						className="cross"
+						onClick={() =>
+							setShowClass("projectDescriptionWrapper")
+						}
+					>
+						<svg
+							aria-hidden="true"
+							focusable="false"
+							data-prefix="fas"
+							data-icon="times"
+							role="img"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 352 512"
+							class="svg-inline--fa fa-times fa-w-11"
+						>
+							<path
+								fill="currentColor"
+								d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+								class=""
+							></path>
+						</svg>{" "}
+					</button>
+
+					<div className="projectGeneralInfo">
+						<h3>PROJECT</h3>
+						<h2>ADVENTURE CORD</h2>
+						<ul>
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>JAVASCRIPT</li>
+							<li>ReactJs</li>
+							<li>RESPONSIVE</li>
+						</ul>
+					</div>
+					<div className="aboutProject">
+						<h3>ABOUT</h3>
+						<p>
+							For this project I worked with things like
+							Authentication with OAuth2, PayPal API, Database
+							Design, UI & UX, and I used Vue and Vuex to make the
+							project a Single Page Application. Victor from
+							Adventure Cord approached me to develop a website
+							for his Discord bot where users can log in with
+							their Discord accounts and view their profile stats,
+							view other users's stats, read news and updates for
+							the bot directly from the team and purchase products
+							to use within the bot. Since I had a lot of time to
+							build the project and wanted to learn as much as
+							possible, I decided to build everything from
+							scratch.
+						</p>
+					</div>
+					<div className="projectCodeLinks">
+						<button>
+							<a href="">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									data-prefix="fas"
+									data-icon="eye"
+									role="img"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 576 512"
+									class="svg-inline--fa fa-eye fa-w-18"
+								>
+									<path
+										fill="currentColor"
+										d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+										class=""
+									></path>
+								</svg>
+								<span>DEMO</span>
+							</a>
+						</button>
+						<button>
+							<a href="">
+								<svg
+									aria-hidden="true"
+									focusable="false"
+									data-prefix="fas"
+									data-icon="code"
+									role="img"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 640 512"
+									class="svg-inline--fa fa-code fa-w-20"
+								>
+									<path
+										fill="currentColor"
+										d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"
+										class=""
+									></path>
+								</svg>
+								<span>CODE</span>
+							</a>
+						</button>
+					</div>
+				</div>{" "}
+			</div>{" "}
+		</div>
+	);
+};
+
+export default ProjectDescription;
