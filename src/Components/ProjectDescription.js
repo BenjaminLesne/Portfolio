@@ -1,68 +1,52 @@
 import React, { useState } from "react";
-import logo from "../Image/photoCVBen.jpg";
 
-const ProjectDescription = ({ setShowClass, showClass }) => {
+const ProjectDescription = ({ setShowClass, showClass, projects, index }) => {
 	return (
 		<div className={showClass}>
 			<div className="projectDescription">
-				<img src={logo} alt="project logo" className="projectLogo" />
-				<div className="info">
-					<button
-						className="cross"
-						onClick={() =>
-							setShowClass("projectDescriptionWrapper")
-						}
+				<button
+					className="cross"
+					onClick={() => setShowClass("projectDescriptionWrapper")}
+				>
+					<svg
+						aria-hidden="true"
+						focusable="false"
+						data-prefix="fas"
+						data-icon="times"
+						role="img"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 352 512"
+						class="svg-inline--fa fa-times fa-w-11"
 					>
-						<svg
-							aria-hidden="true"
-							focusable="false"
-							data-prefix="fas"
-							data-icon="times"
-							role="img"
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 352 512"
-							class="svg-inline--fa fa-times fa-w-11"
-						>
-							<path
-								fill="currentColor"
-								d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
-								class=""
-							></path>
-						</svg>{" "}
-					</button>
-
+						<path
+							fill="currentColor"
+							d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+							class=""
+						></path>
+					</svg>{" "}
+				</button>
+				<div className="projectLogo">
+					<img src={projects[index].img} alt="project logo" />
+				</div>
+				<div className="info">
 					<div className="projectGeneralInfo">
 						<h3>PROJECT</h3>
-						<h2>ADVENTURE CORD</h2>
+						<h2>{projects[index].name}</h2>
 						<ul>
-							<li>HTML5</li>
-							<li>CSS3</li>
-							<li>JAVASCRIPT</li>
-							<li>ReactJs</li>
-							<li>RESPONSIVE</li>
+							{projects[index].technologiesUsed.map(
+								(technologie, index) => (
+									<li key={index}>{technologie}</li>
+								)
+							)}
 						</ul>
 					</div>
 					<div className="aboutProject">
 						<h3>ABOUT</h3>
-						<p>
-							For this project I worked with things like
-							Authentication with OAuth2, PayPal API, Database
-							Design, UI & UX, and I used Vue and Vuex to make the
-							project a Single Page Application. Victor from
-							Adventure Cord approached me to develop a website
-							for his Discord bot where users can log in with
-							their Discord accounts and view their profile stats,
-							view other users's stats, read news and updates for
-							the bot directly from the team and purchase products
-							to use within the bot. Since I had a lot of time to
-							build the project and wanted to learn as much as
-							possible, I decided to build everything from
-							scratch.
-						</p>
+						{projects[index].about}
 					</div>
 					<div className="projectCodeLinks">
 						<button>
-							<a href="">
+							<a href={projects[index].demo}>
 								<svg
 									aria-hidden="true"
 									focusable="false"
@@ -71,7 +55,7 @@ const ProjectDescription = ({ setShowClass, showClass }) => {
 									role="img"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 576 512"
-									class="svg-inline--fa fa-eye fa-w-18"
+									className="svg-inline--fa fa-eye fa-w-18"
 								>
 									<path
 										fill="currentColor"

@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  overflow-y: initial;
 }
 
 // Body
@@ -25,7 +26,6 @@ a {
 .App {
   background-color: #22262a;
   min-height: 100vh;
-
   box-sizing: border-box;
   width: 100%;
   overflow-x: hidden;
@@ -33,8 +33,6 @@ a {
 
 /*Header and children*/
 header {
-  position: absolute;
-  top: 0;
   width: 100%;
   height: 100px;
   display: flex;
@@ -179,10 +177,32 @@ header .menu-btn {
 /*about Page */
 .About {
   text-align: center;
-  height: 100vh;
+  height: calc(100vh - 176px);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
+}
+
+#aboutContentWrapper {
+  animation: rotateAndFade 0.5s ease-in-out;
+  transform-origin: bottom;
+}
+
+@keyframes rotateAndFade {
+  0% {
+    transform: rotate(50deg);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
 }
 
 .About h1 {
@@ -242,8 +262,9 @@ header .menu-btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: calc(100vh - 175px);
   position: fixed;
+  z-index: 14;
 }
 
 /*contact*/
@@ -253,7 +274,7 @@ header .menu-btn {
 }
 
 address {
-  z-index: 10;
+  z-index: 15;
   display: flex;
   flex-direction: column;
 }
@@ -310,7 +331,9 @@ address div#resume {
 /*Portfolio section*/
 
 #Portfolio {
-  height: 100vh;
+  min-height: calc(100vh - 175px);
+
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -319,6 +342,7 @@ address div#resume {
 #portfolioPresentation {
   color: white;
   margin-left: 10%;
+  margin-right: 10%;
 }
 
 #portfolioPresentation p {
@@ -327,12 +351,82 @@ address div#resume {
 
 .projects {
   height: 320px;
-  width: 500px;
-  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 0 0 10px #000;
   position: relative;
+  background-color: #222327;
+  background: center no-repeat;
+  background-size: 50%;
+  transition: background-size 0.2s;
+}
+
+.translateFromLeft {
+  animation: translateFromLeft 0.8s ease-in-out;
+}
+
+.translateFromRight {
+  animation: translateFromRight 0.8s ease-in-out;
+}
+
+.translateFromBottom {
+  animation: translateFromBottom 0.8s ease-in-out;
+}
+
+@keyframes translateFromLeft {
+  0% {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes translateFromRight {
+  0% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes translateFromBottom {
+  0% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.projects:hover {
+  background-size: 60%;
+  transition: background-size 0.2s;
 }
 
 .projectBackground {
@@ -353,9 +447,13 @@ address div#resume {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
 
-.projects #portfolioSvgWrapper {
+.projects .portfolioSvgWrapper {
   width: 100%;
 
   display: inline-block;
@@ -376,6 +474,7 @@ address div#resume {
   margin-bottom: 20px;
   margin-top: 10px;
   transition: 0.2s;
+  border: none;
 }
 
 .projects:hover .portfolioSvg {
@@ -392,16 +491,21 @@ address div#resume {
   height: 70%;
   margin: auto;
   margin-left: 0;
+  transform: scale(1.5);
 }
 
 .projectDescriptionWrapper {
-  position: absolute;
+  position: fixed;
+  align-items: center;
+  height: 100vh;
   width: 100%;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   transform: scale(0);
   transition: 0.2s;
-  background-color: ;
+  z-index: 9;
 }
 
 .projectDescriptionWrapper.show {
@@ -411,14 +515,18 @@ address div#resume {
 }
 
 .projectDescription {
+  position: fixed;
+
   display: flex;
   box-shadow: 0 0 5px #000;
   background-color: #343a41;
-
-  height: 50vh;
-  max-height: 500px;
+  min-height: 50vh;
   width: 95%;
   max-width: 1000px;
+}
+
+.projectDescription img {
+  transform: scale(0.4);
 }
 
 .projectDescription h2 {
@@ -431,9 +539,18 @@ address div#resume {
 
 .projectDescription .projectLogo {
   flex: 3;
+  height: 100%;
+}
+
+.projectDescription .projectLogo img {
+  height: 100%;
+  width: 100%;
 }
 
 .projectDescription .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 2;
   padding: 10px;
   position: relative;
@@ -448,6 +565,7 @@ address div#resume {
   color: #94a4b4;
   border: none;
   transition: 0.5s;
+  z-index: 15;
 }
 
 .projectDescription .cross:hover {
@@ -491,6 +609,8 @@ address div#resume {
 
 .projectCodeLinks {
   display: flex;
+
+  padding: 10px;
 }
 
 .projectCodeLinks button {
@@ -522,11 +642,12 @@ address div#resume {
 /*Footer*/
 
 footer {
-  bottom: 0;
   height: 75px;
   width: 100%;
   background: #171a1d;
   border-top: 1px solid #343a41;
+  z-index: 1;
+  margin: 0;
 }
 
 footer ul {
@@ -534,6 +655,7 @@ footer ul {
   justify-content: space-around;
   margin: 0;
   height: 100%;
+  flex-wrap: wrap;
 }
 
 footer li {
@@ -541,10 +663,63 @@ footer li {
   color: #94a4b4;
   user-select: none;
   margin: auto;
+  padding-right: 20px;
 }
 
 footer ul li a {
   color: white;
   user-select: text;
   -webkit-user-select: text;
+}
+
+@media screen and (max-width: 1016px) {
+  .projectDescription {
+    flex-direction: column;
+    max-height: 100vh;
+  }
+
+  .projectDescription .projectLogo {
+    flex: 1;
+    height: 10px;
+  }
+
+  .projectDescription .projectLogo img {
+    transform: scale(0.5);
+  }
+
+  .projectDescription .info {
+    flex: 4;
+  }
+}
+
+@media (pointer: coarse) and(hover: none) {
+  address a {
+    transform: translate(0);
+  }
+
+  .addressWrapper {
+    position: static;
+  }
+
+  address {
+    width: 100%;
+    transform: scale(1.5);
+    z-index: 1;
+  }
+
+  address a {
+    margin: auto;
+  }
+
+  .projectBackground {
+    opacity: 1;
+  }
+
+  .portfolioSvg {
+    transform: scale(1.5);
+  }
+
+  .projectDescription .projectLogo {
+    flex: 1;
+  }
 }
