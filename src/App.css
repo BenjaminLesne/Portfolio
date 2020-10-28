@@ -17,6 +17,10 @@ body {
   border: solid red;
 }
 
+#root {
+  background-color: #22262a;
+}
+
 a {
   text-decoration: none;
 
@@ -24,7 +28,6 @@ a {
 }
 
 .App {
-  background-color: #22262a;
   min-height: 100vh;
   box-sizing: border-box;
   width: 100%;
@@ -177,7 +180,7 @@ header .menu-btn {
 /*about Page */
 .About {
   text-align: center;
-  height: calc(100vh - 176px);
+  height: calc(100vh - 175px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -331,8 +334,8 @@ address div#resume {
 /*Portfolio section*/
 
 #Portfolio {
-  min-height: calc(100vh - 175px);
-
+  min-height: calc(100vh - 100px);
+  position: relative;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -376,6 +379,10 @@ address div#resume {
   animation: translateFromBottom 0.8s ease-in-out;
 }
 
+.translateFromTop {
+  animation: translateFromTop 0.8s ease-in-out;
+}
+
 @keyframes translateFromLeft {
   0% {
     transform: translateX(-100vw);
@@ -411,6 +418,22 @@ address div#resume {
 @keyframes translateFromBottom {
   0% {
     transform: translateY(100vh);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes translateFromTop {
+  0% {
+    transform: translateY(-100vh);
     opacity: 0;
   }
 
@@ -503,19 +526,40 @@ address div#resume {
   left: 0;
   display: flex;
   justify-content: center;
+  z-index: 16;
+
+  opacity: 0;
   transform: scale(0);
-  transition: 0.2s;
-  z-index: 9;
+  transition: opacity 0.2s;
+  /*animation avec transfrom delay 0.2s et opacity duration 0.2s*/
 }
 
 .projectDescriptionWrapper.show {
   visibility: visible;
+
   transform: scale(1);
-  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+@keyframes show {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .projectDescription {
-  position: fixed;
+  /*animation opacity: */
+  position: absolute;
+
+  opacity: 1;
+  transition: opacity 0.5s 1s;
 
   display: flex;
   box-shadow: 0 0 5px #000;
@@ -523,10 +567,14 @@ address div#resume {
   min-height: 50vh;
   width: 95%;
   max-width: 1000px;
+  z-index: 16;
 }
 
-.projectDescription img {
-  transform: scale(0.4);
+.projectDescriptionWrapper.show .projectDescription {
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity 0.2s 0.1s;
+  transition: transform 0.2s;
 }
 
 .projectDescription h2 {
@@ -539,12 +587,18 @@ address div#resume {
 
 .projectDescription .projectLogo {
   flex: 3;
-  height: 100%;
+  display: flex;
+
+  background-color: #222327;
 }
 
 .projectDescription .projectLogo img {
-  height: 100%;
-  width: 100%;
+  height: 70%;
+  width: 70%;
+
+  max-width: 410px;
+  max-height: 350px;
+  margin: auto;
 }
 
 .projectDescription .info {
@@ -576,11 +630,13 @@ address div#resume {
 
 .projectDescription .info p {
   overflow-y: scroll;
+  overscroll-behavior: contain;
   white-space: pre-line;
-  height: 200px;
+  max-height: 200px;
   letter-spacing: 1px;
   line-height: 1.5;
   font-weight: lighter;
+  padding-right: 10px;
 }
 
 .projectGeneralInfo,
@@ -615,7 +671,7 @@ address div#resume {
 
 .projectCodeLinks button {
   height: 30px;
-  width: 100px;
+  cursor: pointer;
 
   padding: 5px 15px;
   background: white;
@@ -672,29 +728,43 @@ footer ul li a {
   -webkit-user-select: text;
 }
 
-@media screen and (max-width: 1016px) {
+@media screen and (max-width: 745px) {
   .projectDescription {
     flex-direction: column;
-    max-height: 100vh;
   }
 
   .projectDescription .projectLogo {
-    flex: 1;
-    height: 10px;
+    padding: 30px;
   }
 
   .projectDescription .projectLogo img {
-    transform: scale(0.5);
+    height: 30%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projectDescription {
+    height: 100%;
+    width: 100%;
   }
 
-  .projectDescription .info {
-    flex: 4;
+  .projectLogo {
+  }
+
+  .projectDescription .projectLogo img {
+    height: 100px;
+    width: 100px;
   }
 }
 
 /*no mouse device (mobile, tablet and more) */
 
-@media (pointer: coarse) and(hover: none) {
+@media (hover: none) {
+  button {
+    transform: scale(1.5);
+  }
+
   address a {
     transform: translate(0);
   }
@@ -719,6 +789,11 @@ footer ul li a {
 
   .portfolioSvg {
     transform: scale(1.5);
+  }
+
+  .projectDescriptionWrapper,
+  .projectDescription {
+    max-height: 100vh;
   }
 
   .projectDescription .projectLogo {

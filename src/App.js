@@ -14,8 +14,8 @@ function App() {
         <Header />
         <Address />
 
-        <Route path="/" exact component={About} />
-        <Route path="/Portfolio" component={Portfolio} />
+        <Route path="/Portfolio" exact component={About} />
+        <Route path="/Portfolio/Projects" component={Portfolio} />
       </Router>
       <Footer />
     </div>

@@ -1,12 +1,27 @@
 import React, { useState } from "react";
 
 const ProjectDescription = ({ setShowClass, showClass, projects, index }) => {
+	const Root = document.getElementById("root");
+	const App = document.getElementsByClassName("App");
+	const body = document.getElementsByTagName("body");
+	const menuBtn = document.getElementsByClassName("menu-btn");
+
 	return (
 		<div className={showClass}>
 			<div className="projectDescription">
 				<button
 					className="cross"
-					onClick={() => setShowClass("projectDescriptionWrapper")}
+					onClick={() => {
+						setShowClass("projectDescriptionWrapper");
+
+						body[0].style.overflowY = "initial";
+						App[0].style.width = "100%";
+
+						menuBtn[0].style.right = "0";
+						window.setTimeout(() => {
+							menuBtn[0].style.transition = "";
+						}, 1000);
+					}}
 				>
 					<svg
 						aria-hidden="true"

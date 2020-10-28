@@ -7,11 +7,11 @@ const Menu = ({ menuHeight, setMenuHeight, handleClick, setClassName }) => {
 			<ul>
 				<li onClick={handleClick}>
 					<div></div>
-					<Link to="/">ABOUT</Link>
+					<Link to="/Portfolio">ABOUT</Link>
 				</li>
 				<li onClick={handleClick}>
 					<div></div>
-					<Link to="/Portfolio">PORTFOLIO</Link>
+					<Link to="/Portfolio/Projects">PORTFOLIO</Link>
 				</li>
 			</ul>
 		</div>

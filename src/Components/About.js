@@ -10,7 +10,7 @@ const About = () => {
 			}, 2200);
 		}
 	};
-
+	// faire un array pour les phrases et un map pour les pondre
 	return (
 		<div className="About">
 			<div id="aboutContentWrapper">
@@ -149,7 +149,7 @@ const About = () => {
 						</div>
 					</div>
 				</div>
-				<Link to="/portfolio">
+				<Link to="/Portfolio/Projects">
 					<div id="viewProjects">VIEW PROJECTS</div>
 				</Link>
 			</div>

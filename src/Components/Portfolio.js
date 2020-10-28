@@ -51,15 +51,24 @@ const Portfolio = () => {
 			code: "",
 		},
 	]);
-
+	const Root = document.getElementById("root");
+	const App = document.getElementsByClassName("App");
+	const body = document.getElementsByTagName("body");
+	const menuBtn = document.getElementsByClassName("menu-btn");
+	// menuBtn est null
 	const clickHandler = (e) => {
 		setIndex(e);
 		setShowClass("projectDescriptionWrapper show");
+
+		App[0].style.width = App[0].offsetWidth + "px";
+		body[0].style.overflowY = "hidden";
+		menuBtn[0].style.right = Root.offsetWidth - App[0].offsetWidth + "px";
+		menuBtn[0].style.transition = "0s";
 	};
 
 	return (
 		<div id="Portfolio">
-			<div id="portfolioPresentation">
+			<div id="portfolioPresentation" className="translateFromTop">
 				<h2>PORTFOLIO</h2>
 				<p>
 					// These are my favorite projects I've worked on for the
@@ -68,8 +77,6 @@ const Portfolio = () => {
 			</div>
 			<div id="projectsSection">
 				{projects.map((projet, index) => {
-					/*quand le if est lu, ca renvoie une erreur "too many renders"*/
-					console.log(projects.length);
 					return (
 						<div
 							// fonctiion un coup sur deux animatino left/animation right
