@@ -692,6 +692,8 @@ footer ul li a {
   }
 }
 
+/*no mouse device (mobile, tablet and more) */
+
 @media (pointer: coarse) and(hover: none) {
   address a {
     transform: translate(0);
