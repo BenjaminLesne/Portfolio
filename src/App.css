@@ -729,6 +729,10 @@ footer ul li a {
 }
 
 @media screen and (max-width: 745px) {
+  .About {
+    height: calc(100vh - 325px);
+  }
+
   .projectDescription {
     height: 100%;
     width: 100%;
@@ -763,6 +767,10 @@ footer ul li a {
     z-index: 1;
   }
 
+  .addressWrapper {
+    height: initial;
+  }
+
   .projectBackground {
     opacity: 1;
   }
@@ -787,9 +795,8 @@ footer ul li a {
   .row .bottom_word {
     display: none;
   }
-}
 
-/*no mouse device (mobile, tablet and more) */
-
-@media (hover: none) {
+  .duoOfWord.translateY {
+    transform: translateY(0) !important;
+  }
 }
