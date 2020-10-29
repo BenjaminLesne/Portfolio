@@ -752,7 +752,7 @@ footer ul li a {
 
   address a {
     transform: translate(0);
-    margin: auto;
+    margin: initial;
     width: 130px;
     height: 50px;
   }
