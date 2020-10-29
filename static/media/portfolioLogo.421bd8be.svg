@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 5" width="1" height="50">
+    <style>
+    text {
+
+        fill: white;
+        font-size: 3rem;
+        filter: red;
+        letter-spacing: 0;
+        border: solid;
+    }
+    </style>
+    <text x="10" y="20">PORTFOLIO</text>
+</svg>
