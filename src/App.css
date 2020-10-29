@@ -118,7 +118,7 @@ header .menu-btn {
 
 .menu {
   background: #343a41;
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
 
@@ -767,6 +767,9 @@ footer ul li a {
 
   address a {
     transform: translate(0);
+    margin: auto;
+    width: 130px;
+    height: 50px;
   }
 
   .addressWrapper {
@@ -775,12 +778,8 @@ footer ul li a {
 
   address {
     width: 100%;
-    transform: scale(1.5);
+    margin-bottom: 20px;
     z-index: 1;
-  }
-
-  address a {
-    margin: auto;
   }
 
   .projectBackground {
@@ -798,5 +797,13 @@ footer ul li a {
 
   .projectDescription .projectLogo {
     flex: 1;
+  }
+
+  .AboutPresentation h1 {
+    font-size: 3rem;
+  }
+
+  .row .bottom_word {
+    display: none;
   }
 }
