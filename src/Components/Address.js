@@ -4,7 +4,7 @@ const Address = () => {
 	return (
 		<div className="addressWrapper">
 			<address>
-				<a href="https://github.com/BenjaminLesne">
+				<a href="https://github.com/BenjaminLesne" target="_blank">
 					<div id="github">
 						<span>GITHUB</span>
 						<svg
@@ -24,7 +24,7 @@ const Address = () => {
 						</svg>
 					</div>
 				</a>
-				<a href="mailto: benjamin.lesne@outlook.fr">
+				<a href="mailto: benjamin.lesne@outlook.fr" target="_blank">
 					<div id="mail">
 						<span>EMAIL</span>
 						<svg
@@ -48,6 +48,7 @@ const Address = () => {
 				<a
 					href="../BenjaminLesneCV_EN_FR_VERSON.pdf"
 					download="BenjaminLesneRESUME-FrontEndDeveloper"
+					target="_blank"
 				>
 					<div id="resume">
 						<span>RESUME</span>

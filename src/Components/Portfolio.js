@@ -11,6 +11,20 @@ const Portfolio = () => {
 	// object that keep all projects info to display
 	const [projects, setProject] = useState([
 		{
+			img: portfolioLogo,
+			name: "My Portfolio",
+			technologiesUsed: ["HTML5", "CSS3", "JAVASCRIPT", "REACT.JS"],
+			about: (
+				<p>
+					My goal was to create somehting with an UI as simple as
+					possible without any fluff to show quickly what I can do
+					with React.
+				</p>
+			),
+			demo: "https://benjaminlesne.github.io/Portfolio/",
+			code: "https://github.com/BenjaminLesne/Portfolio",
+		},
+		{
 			img: project1Logo,
 			name: "ExampleProjectOne",
 			technologiesUsed: ["HTML5", "CSS3", "JAVASCRIPT", "REACT.JS"],
@@ -34,14 +48,6 @@ const Portfolio = () => {
 			code: "",
 		},
 
-		{
-			img: project2Logo,
-			name: "ExampleProjectTwo",
-			technologiesUsed: ["HTML5", "CSS3", "JAVASCRIPT", "REACT.JS"],
-			about: <p>I have no idea what I'm doing</p>,
-			demo: "",
-			code: "",
-		},
 		{
 			img: project2Logo,
 			name: "ExampleProjectTwo",

@@ -82,7 +82,7 @@ const ProjectDescription = ({ setShowClass, showClass, projects, index }) => {
 							</a>
 						</button>
 						<button>
-							<a href="">
+							<a href={projects[index].code}>
 								<svg
 									aria-hidden="true"
 									focusable="false"
