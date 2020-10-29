@@ -741,6 +741,14 @@ footer ul li a {
     height: 30%;
     width: 30%;
   }
+
+  .addressWrapper {
+    height: initial;
+  }
+
+  .row {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 500px) {
