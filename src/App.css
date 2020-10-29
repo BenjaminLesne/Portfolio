@@ -730,29 +730,6 @@ footer ul li a {
 
 @media screen and (max-width: 745px) {
   .projectDescription {
-    flex-direction: column;
-  }
-
-  .projectDescription .projectLogo {
-    padding: 30px;
-  }
-
-  .projectDescription .projectLogo img {
-    height: 30%;
-    width: 30%;
-  }
-
-  .addressWrapper {
-    height: initial;
-  }
-
-  .row {
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .projectDescription {
     height: 100%;
     width: 100%;
   }
