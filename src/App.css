@@ -792,6 +792,10 @@ footer ul li a {
     font-size: 3rem;
   }
 
+  .row {
+    height: initial;
+  }
+
   .row .bottom_word {
     display: none;
   }
