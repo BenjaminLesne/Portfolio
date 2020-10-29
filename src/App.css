@@ -498,6 +498,7 @@ address div#resume {
   margin-top: 10px;
   transition: 0.2s;
   border: none;
+  align-items: center;
 }
 
 .projects:hover .portfolioSvg {
@@ -665,7 +666,7 @@ address div#resume {
 
 .projectCodeLinks {
   display: flex;
-
+  align-items: center;
   padding: 10px;
 }
 
