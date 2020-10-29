@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Address = () => {
 	return (
@@ -46,7 +46,7 @@ const Address = () => {
 					</div>
 				</a>
 				<a
-					href="../BenjaminLesneCV_EN_FR_VERSON.pdf"
+					href="BenjaminLesneCV_EN_FR_VERSION.pdf"
 					download="BenjaminLesneCvResume-FrontEndDeveloper.pdf"
 					target="_blank"
 				>
