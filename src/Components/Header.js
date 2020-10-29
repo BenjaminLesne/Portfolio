@@ -33,7 +33,7 @@ const Header = () => {
 				setClassName={setClassName}
 				handleClick={handleClick}
 			/>
-			<Link to="/">
+			<Link to="/Porfolio">
 				<div className="row">
 					<div className="duoOfWord" onMouseEnter={mouseEnterHandler}>
 						<div className="top_word">BENJAMIN</div>
