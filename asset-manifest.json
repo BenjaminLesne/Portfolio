@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4998cc8f.chunk.css",
+    "main.css": "/Portfolio/static/css/main.cea4b8f5.chunk.css",
     "main.js": "/Portfolio/static/js/main.72aa0859.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.72aa0859.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.9e287cfb.js",
@@ -8,9 +8,9 @@
     "static/js/2.7a8a120b.chunk.js": "/Portfolio/static/js/2.7a8a120b.chunk.js",
     "static/js/2.7a8a120b.chunk.js.map": "/Portfolio/static/js/2.7a8a120b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.e5396bddea41cc5ea32c9be5d6c8a5d9.js": "/Portfolio/precache-manifest.e5396bddea41cc5ea32c9be5d6c8a5d9.js",
+    "precache-manifest.01843b6a35641de8e95a2940e774028a.js": "/Portfolio/precache-manifest.01843b6a35641de8e95a2940e774028a.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.4998cc8f.chunk.css.map": "/Portfolio/static/css/main.4998cc8f.chunk.css.map",
+    "static/css/main.cea4b8f5.chunk.css.map": "/Portfolio/static/css/main.cea4b8f5.chunk.css.map",
     "static/js/2.7a8a120b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7a8a120b.chunk.js.LICENSE.txt",
     "static/media/facebook-wow.svg": "/Portfolio/static/media/facebook-wow.d9dc7b08.svg",
     "static/media/App.css": "/Portfolio/static/media/github-brands.86f1ca75.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.9e287cfb.js",
     "static/js/2.7a8a120b.chunk.js",
-    "static/css/main.4998cc8f.chunk.css",
+    "static/css/main.cea4b8f5.chunk.css",
     "static/js/main.72aa0859.chunk.js"
   ]
 }
