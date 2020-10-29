@@ -784,6 +784,10 @@ footer ul li a {
     max-height: 100vh;
   }
 
+  .projectDescription {
+    flex-direction: column;
+  }
+
   .projectDescription .projectLogo {
     flex: 1;
   }
