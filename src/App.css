@@ -764,11 +764,7 @@ footer ul li a {
     height: 100px;
     width: 100px;
   }
-}
 
-/*no mouse device (mobile, tablet and more) */
-
-@media (hover: none) {
   button {
     transform: scale(1.5);
   }
@@ -814,4 +810,9 @@ footer ul li a {
   .row .bottom_word {
     display: none;
   }
+}
+
+/*no mouse device (mobile, tablet and more) */
+
+@media (hover: none) {
 }
