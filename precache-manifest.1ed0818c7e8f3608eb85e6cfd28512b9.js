@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "645112f7b2f1a947e5d52aeeedc9136b",
+    "revision": "3ae83efbb8bc66f7585dc60e734d9b0e",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "bdac93b2e98eb689da75",
+    "revision": "cb98edc87742a5484250",
     "url": "/Portfolio/static/css/main.456db303.chunk.css"
   },
   {
-    "revision": "cae5d04e809eb7d7d02e",
-    "url": "/Portfolio/static/js/2.67139b59.chunk.js"
+    "revision": "95f517ba05ea194c6db6",
+    "url": "/Portfolio/static/js/2.4e3273e3.chunk.js"
   },
   {
     "revision": "8d190e2d02f8e768921a63f56a741895",
-    "url": "/Portfolio/static/js/2.67139b59.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.4e3273e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bdac93b2e98eb689da75",
-    "url": "/Portfolio/static/js/main.30a9d910.chunk.js"
+    "revision": "cb98edc87742a5484250",
+    "url": "/Portfolio/static/js/main.56391927.chunk.js"
   },
   {
     "revision": "627bdb01d220a474fd8b",
     "url": "/Portfolio/static/js/runtime-main.9e287cfb.js"
+  },
+  {
+    "revision": "a6096589c1051f1bf4617077b6d59813",
+    "url": "/Portfolio/static/media/BenjaminLesneCV_EN_FR_VERSION.a6096589.pdf"
   },
   {
     "revision": "d9dc7b088f67c06365078ce88ca6870e",
