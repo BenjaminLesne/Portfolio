@@ -1,4 +1,5 @@
 import React from "react";
+import CV from "./BenjaminLesneCV_EN_FR_VERSION.pdf";
 
 const Address = () => {
 	return (
@@ -46,7 +47,7 @@ const Address = () => {
 					</div>
 				</a>
 				<a
-					href="BenjaminLesneCV_EN_FR_VERSION.pdf"
+					href={CV}
 					download="BenjaminLesneCvResume-FrontEndDeveloper.pdf"
 					target="_blank"
 				>
