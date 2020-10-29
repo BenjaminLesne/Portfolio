@@ -47,7 +47,7 @@ const Address = () => {
 				</a>
 				<a
 					href="../BenjaminLesneCV_EN_FR_VERSON.pdf"
-					download="BenjaminLesneRESUME-FrontEndDeveloper"
+					download="BenjaminLesneCvResume-FrontEndDeveloper.pdf"
 					target="_blank"
 				>
 					<div id="resume">

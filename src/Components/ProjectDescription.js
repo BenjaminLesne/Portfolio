@@ -61,7 +61,7 @@ const ProjectDescription = ({ setShowClass, showClass, projects, index }) => {
 					</div>
 					<div className="projectCodeLinks">
 						<button>
-							<a href={projects[index].demo}>
+							<a href={projects[index].demo} target="_blank">
 								<svg
 									aria-hidden="true"
 									focusable="false"
@@ -82,7 +82,7 @@ const ProjectDescription = ({ setShowClass, showClass, projects, index }) => {
 							</a>
 						</button>
 						<button>
-							<a href={projects[index].code}>
+							<a href={projects[index].code} target="_blank">
 								<svg
 									aria-hidden="true"
 									focusable="false"

@@ -30,18 +30,19 @@ const Portfolio = () => {
 			technologiesUsed: ["HTML5", "CSS3", "JAVASCRIPT", "REACT.JS"],
 			about: (
 				<p>
-					For this project I worked with things like Authentication
-					with OAuth2, PayPal API, Database Design, UI & UX, and I
-					used Vue and Vuex to make the project a Single Page
-					Application.
-					<br /> Victor fromAdventure Cord approached me to develop a
-					website for his Discord bot where users can log in with
-					their Discord accounts and view their profile stats, view
-					other users's stats, read news and updates for the bot
-					directly from the team and purchase products to use within
-					the bot. Since I had a lot of time to build the project and
-					wanted to learn as much as possible, I decided to build
-					everything from scratch.
+					Atque, ut Tullius ait, ut etiam ferae fame monitae plerumque
+					ad eum locum ubi aliquando pastae sunt revertuntur, ita
+					homines instar turbinis degressi montibus impeditis et
+					arduis loca petivere mari confinia, per quae viis latebrosis
+					sese convallibusque occultantes cum appeterent noctes luna
+					etiam tum cornuta ideoque nondum solido splendore fulgente
+					nauticos observabant quos cum in somnum sentirent effusos
+					per ancoralia, quadrupedo gradu repentes seseque suspensis
+					passibus iniectantes in scaphas eisdem sensim nihil
+					opinantibus adsistebant et incendente aviditate saevitiam ne
+					cedentium quidem ulli parcendo obtruncatis omnibus merces
+					opimas velut viles nullis repugnantibus avertebant. haecque
+					non diu sunt perpetrata.
 				</p>
 			),
 			demo: "",
@@ -51,8 +52,24 @@ const Portfolio = () => {
 		{
 			img: project2Logo,
 			name: "ExampleProjectTwo",
-			technologiesUsed: ["HTML5", "CSS3", "JAVASCRIPT", "REACT.JS"],
-			about: <p>I have no idea what I'm doing</p>,
+			technologiesUsed: ["HTML5", "CSS3"],
+			about: (
+				<p>
+					Atque, ut Tullius ait, ut etiam ferae fame monitae plerumque
+					ad eum locum ubi aliquando pastae sunt revertuntur, ita
+					homines instar turbinis degressi montibus impeditis et
+					arduis loca petivere mari confinia, per quae viis latebrosis
+					sese convallibusque occultantes cum appeterent noctes luna
+					etiam tum cornuta ideoque nondum solido splendore fulgente
+					nauticos observabant quos cum in somnum sentirent effusos
+					per ancoralia, quadrupedo gradu repentes seseque suspensis
+					passibus iniectantes in scaphas eisdem sensim nihil
+					opinantibus adsistebant et incendente aviditate saevitiam ne
+					cedentium quidem ulli parcendo obtruncatis omnibus merces
+					opimas velut viles nullis repugnantibus avertebant. haecque
+					non diu sunt perpetrata.
+				</p>
+			),
 			demo: "",
 			code: "",
 		},
