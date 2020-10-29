@@ -731,7 +731,8 @@ footer ul li a {
 @media screen and (max-width: 745px) {
   .About {
     height: calc(100vh - 325px);
-    min-height: 400px;
+    min-height: 420px;
+    margin-bottom: 20px;
   }
 
   .projectDescription {
