@@ -731,7 +731,7 @@ footer ul li a {
 @media screen and (max-width: 745px) {
   .About {
     height: calc(100vh - 325px);
-    min-height: 420px;
+    min-height: 450px;
     margin-bottom: 20px;
   }
 
