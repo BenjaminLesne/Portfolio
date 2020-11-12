@@ -1,10 +1,18 @@
 import React, { useState } from "react";
 
-const ProjectDescription = ({ setShowClass, showClass, projects, index }) => {
+const ProjectDescription = ({
+	setShowClass,
+	showClass,
+	projects,
+	index,
+	langChosen,
+	lang,
+}) => {
 	const Root = document.getElementById("root");
 	const App = document.getElementsByClassName("App");
 	const body = document.getElementsByTagName("body");
 	const menuBtn = document.getElementsByClassName("menu-btn");
+	const langChooser = document.getElementById("langChooser");
 
 	return (
 		<div className={showClass}>
@@ -18,6 +26,8 @@ const ProjectDescription = ({ setShowClass, showClass, projects, index }) => {
 						App[0].style.width = "100%";
 
 						menuBtn[0].style.right = "0";
+						langChooser.style.right = "100px";
+
 						window.setTimeout(() => {
 							menuBtn[0].style.transition = "";
 						}, 1000);
@@ -45,7 +55,7 @@ const ProjectDescription = ({ setShowClass, showClass, projects, index }) => {
 				</div>
 				<div className="info">
 					<div className="projectGeneralInfo">
-						<h3>PROJECT</h3>
+						<h3>{langChosen.project}</h3>
 						<h2>{projects[index].name}</h2>
 						<ul>
 							{projects[index].technologiesUsed.map(
@@ -56,8 +66,10 @@ const ProjectDescription = ({ setShowClass, showClass, projects, index }) => {
 						</ul>
 					</div>
 					<div className="aboutProject">
-						<h3>ABOUT</h3>
-						{projects[index].about}
+						<h3>{langChosen.headerMenuTopLine}</h3>
+						{langChosen == lang.FR
+							? projects[index].about_FR
+							: projects[index].about_EN}
 					</div>
 					<div className="projectCodeLinks">
 						<button>

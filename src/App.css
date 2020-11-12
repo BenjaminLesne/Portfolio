@@ -32,6 +32,7 @@ a {
   box-sizing: border-box;
   width: 100%;
   overflow-x: hidden;
+  text-transform: uppercase;
 }
 
 /*Header and children*/
@@ -43,7 +44,8 @@ header {
   z-index: 5;
 }
 
-header .duoOfWord.translateY {
+header .top_word.translateY,
+header .bottom_word.translateY {
   transform: translateY(-4rem);
   transition: 0.2s ease-in-out;
 }
@@ -62,6 +64,41 @@ header .row {
 
 header a {
   color: white;
+}
+
+header #langChooser {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  display: flex;
+  width: 175px;
+}
+
+header #langChooserBtn {
+  border-radius: 30px;
+  height: 40px;
+  width: 80px;
+  background: grey;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.75);
+}
+
+header #langChooserBtn.active {
+  background: #00acee;
+}
+
+header #langChooserBtn.active #inner-circle {
+  margin-left: 40px;
+}
+
+header #langChooserBtn #inner-circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  margin-right: 40px;
 }
 
 header .menu-btn {
@@ -185,6 +222,7 @@ header .menu-btn {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  text-transform: uppercase;
 }
 
 #aboutContentWrapper {
@@ -221,31 +259,39 @@ header .menu-btn {
 
 .row {
   font-size: 1.5rem;
-  height: 2.5rem;
+
   flex-wrap: wrap;
   overflow: hidden;
   font-weight: bold;
   display: flex;
   justify-content: center;
   flex-direction: row;
+  max-width: 800px;
+  margin: auto;
 }
 
 .duoOfWord {
   margin: 0px 5px;
-  transition: 0.2s ease-in-out;
+
+  text-transform: uppercase;
+  height: 2.2rem;
+  overflow: hidden;
 }
 
-.duoOfWord.translateY {
+.top_word.translateY,
+.bottom_word.translateY {
   transform: translateY(-2rem);
   transition: 0.2s ease-in-out;
 }
 
 .top_word {
   color: #94a4b4;
+  transition: 0.2s ease-in-out;
 }
 
 .bottom_word {
   color: #5b6570;
+  transition: 0.2s ease-in-out;
 }
 
 #viewProjects {
@@ -350,6 +396,7 @@ address div#resume {
 
 #portfolioPresentation p {
   color: grey;
+  text-transform: lowercase;
 }
 
 .projects {
@@ -518,6 +565,10 @@ address div#resume {
   transform: scale(1.5);
 }
 
+.portfolioSvg span {
+  text-transform: uppercase;
+}
+
 .projectDescriptionWrapper {
   position: fixed;
   align-items: center;
@@ -643,6 +694,10 @@ address div#resume {
 .projectGeneralInfo,
 .aboutProject {
   color: #94a4b4;
+}
+
+.aboutProject p {
+  text-transform: initial;
 }
 
 .projectGeneralInfo ul {

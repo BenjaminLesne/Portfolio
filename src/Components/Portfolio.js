@@ -5,7 +5,7 @@ import project1Logo from "../Image/facebook-wow.svg";
 import project2Logo from "../Image/react.svg";
 import portfolioLogo from "../Image/portfolioLogo.svg";
 
-const Portfolio = () => {
+const Portfolio = ({ lang, langChosen }) => {
 	const [showClass, setShowClass] = useState("projectDescriptionWrapper");
 	const [index, setIndex] = useState(0);
 	// object that keep all projects info to display
@@ -14,16 +14,24 @@ const Portfolio = () => {
 			img: portfolioLogo,
 			name: "My Portfolio",
 			technologiesUsed: ["HTML5", "CSS3", "JAVASCRIPT", "REACT.JS"],
-			about: (
+			about_EN: (
 				<p>
 					My goal was to create somehting with an UI as simple as
 					possible without any fluff to show quickly what I can do
 					with React.
 				</p>
 			),
+			about_FR: (
+				<p>
+					Mon but était de créer quelque chose avec un UI aussi simple
+					que possible pour montrer rapidement ce que je peux faire
+					avec React.
+				</p>
+			),
 			demo: "https://benjaminlesne.github.io/Portfolio/",
 			code: "https://github.com/BenjaminLesne/Portfolio",
 		},
+
 		{
 			img: project1Logo,
 			name: "ExampleProjectOne",
@@ -78,6 +86,7 @@ const Portfolio = () => {
 	const App = document.getElementsByClassName("App");
 	const body = document.getElementsByTagName("body");
 	const menuBtn = document.getElementsByClassName("menu-btn");
+	const langChooser = document.querySelector("header #langChooser");
 	// menuBtn est null
 	const clickHandler = (e) => {
 		setIndex(e);
@@ -87,16 +96,15 @@ const Portfolio = () => {
 		body[0].style.overflowY = "hidden";
 		menuBtn[0].style.right = Root.offsetWidth - App[0].offsetWidth + "px";
 		menuBtn[0].style.transition = "0s";
+		document.querySelector("header #langChooser").style.right =
+			Root.offsetWidth - App[0].offsetWidth + 100 + "px";
 	};
 
 	return (
 		<div id="Portfolio">
 			<div id="portfolioPresentation" className="translateFromTop">
 				<h2>PORTFOLIO</h2>
-				<p>
-					// These are my favorite projects I've worked on for the
-					past year. Have a look around and make sure to hit me up!
-				</p>
+				<p>{langChosen.portfolioDescription}</p>
 			</div>
 			<div id="projectsSection">
 				{projects.map((projet, index) => {
@@ -137,7 +145,7 @@ const Portfolio = () => {
 											></path>
 										</svg>
 
-										<span>VIEW PROJECT</span>
+										<span>{langChosen.viewProjects}</span>
 									</button>
 								</div>
 							</div>
@@ -151,6 +159,8 @@ const Portfolio = () => {
 				setShowClass={setShowClass}
 				projects={projects}
 				index={index}
+				lang={lang}
+				langChosen={langChosen}
 			/>{" "}
 		</div>
 	);

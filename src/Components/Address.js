@@ -1,7 +1,7 @@
 import React from "react";
 import CV from "./BenjaminLesneCV_EN_FR_VERSION.pdf";
 
-const Address = () => {
+const Address = ({ lang, langChosen }) => {
 	return (
 		<div className="addressWrapper">
 			<address>
@@ -52,7 +52,7 @@ const Address = () => {
 					target="_blank"
 				>
 					<div id="resume">
-						<span>RESUME</span>
+						<span>{langChosen.resume}</span>
 						<svg
 							aria-hidden="true"
 							focusable="false"
