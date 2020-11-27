@@ -71,7 +71,11 @@ header #langChooser {
   top: 20px;
   right: 100px;
   display: flex;
-  width: 175px;
+  width: 200px;
+}
+
+header #langChooser img {
+  width: 50px;
 }
 
 header #langChooserBtn {
