@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e42dff4cf55dc40f8b2cf6524b6c147e",
+    "revision": "a8f891a375f7f7283532a949d3d641ae",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "c28e6f229f856ad7bdc4",
+    "revision": "3ecf1b6b046e59bec675",
     "url": "/Portfolio/static/css/main.7de999fa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.79e9174d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c28e6f229f856ad7bdc4",
-    "url": "/Portfolio/static/js/main.1c547ac3.chunk.js"
+    "revision": "3ecf1b6b046e59bec675",
+    "url": "/Portfolio/static/js/main.c76d37bc.chunk.js"
   },
   {
     "revision": "627bdb01d220a474fd8b",
@@ -25,7 +25,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "293bb95d7b745406c37a2f417243a8c6",
-    "url": "/Portfolio/static/media/BenjaminLesneCV_EN_FR_VERSION.293bb95d.pdf"
+    "url": "/Portfolio/static/media/CVBenjaminLESNE-Developpeur.293bb95d.pdf"
   },
   {
     "revision": "6925ecd45a23c632e299ceb9543a79b1",
