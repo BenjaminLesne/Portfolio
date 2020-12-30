@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "./BenjaminLesneCV_EN_FR_VERSION.pdf";
+import CV from "./CVBenjaminLESNE-Developpeur.pdf";
 
 const Address = ({ lang, langChosen }) => {
 	return (
