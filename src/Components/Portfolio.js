@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ProjectDescription from "./ProjectDescription";
 import logo from "../Image/facebook-wow.svg";
 import maquinaHieloLogo from "../Image/maquinahieloIcon-192x192.png";
-import jegwellLogo from "../Image/jegwellLogo.svg";
+import jegwellLogo from "../Image/jegwellLogo.png";
 import portfolioLogo from "../Image/portfolioLogo.svg";
 
 const Portfolio = ({ lang, langChosen }) => {
