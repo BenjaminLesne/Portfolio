@@ -82,10 +82,10 @@ const Portfolio = ({ lang, langChosen }) => {
 				<p>
 					Une jeune entrepeneuse dans les bijoux fait main avait
 					besoin d'un site web qu'elle puisse gérer elle-même. J'ai
-					donc opter pour le CMS Wordpress. Je lui ai conçu le site
-					web entièrement, je lui ai ensuite enseigné comment le
-					prendre en main (gérer ses commandes, les annulations,
-					modifier le design etc.)
+					donc opté pour le CMS Wordpress. Je lui ai conçu le site web
+					entièrement, je lui ai ensuite enseigné comment le prendre
+					en main (gérer ses commandes, les annulations, modifier le
+					design etc.)
 				</p>
 			),
 			demo: "https://jegwell.fr/",
