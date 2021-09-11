@@ -73,7 +73,14 @@ const ProjectDescription = ({
 					</div>
 					<div className="projectCodeLinks">
 						<button>
-							<a href={projects[index].demo} target="_blank">
+							<a
+								href={projects[index].demo}
+								target={
+									projects[index].demo == "#"
+										? "_self"
+										: "_blank"
+								}
+							>
 								<svg
 									aria-hidden="true"
 									focusable="false"
@@ -94,7 +101,14 @@ const ProjectDescription = ({
 							</a>
 						</button>
 						<button>
-							<a href={projects[index].code} target="_blank">
+							<a
+								href={projects[index].code}
+								target={
+									projects[index].code == "#"
+										? "_self"
+										: "_blank"
+								}
+							>
 								<svg
 									aria-hidden="true"
 									focusable="false"
