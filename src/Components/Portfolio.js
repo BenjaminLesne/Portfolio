@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ProjectDescription from "./ProjectDescription";
 import logo from "../Image/facebook-wow.svg";
-import project1Logo from "../Image/facebook-wow.svg";
-import project2Logo from "../Image/react.svg";
+import maquinaHieloLogo from "../Image/maquinahieloIcon-192x192.png";
+import jegwellLogo from "../Image/jegwellLogo.svg";
 import portfolioLogo from "../Image/portfolioLogo.svg";
 
 const Portfolio = ({ lang, langChosen }) => {
@@ -33,24 +33,25 @@ const Portfolio = ({ lang, langChosen }) => {
 		},
 
 		{
-			img: project1Logo,
-			name: "ExampleProjectOne",
-			technologiesUsed: ["HTML5", "CSS3", "JAVASCRIPT", "REACT.JS"],
-			about: (
+			img: maquinaHieloLogo,
+			name: "maquinaHielo",
+			technologiesUsed: ["HTML5", "CSS3", "JAVASCRIPT", "PHP"],
+			about_EN: (
 				<p>
-					Atque, ut Tullius ait, ut etiam ferae fame monitae plerumque
-					ad eum locum ubi aliquando pastae sunt revertuntur, ita
-					homines instar turbinis degressi montibus impeditis et
-					arduis loca petivere mari confinia, per quae viis latebrosis
-					sese convallibusque occultantes cum appeterent noctes luna
-					etiam tum cornuta ideoque nondum solido splendore fulgente
-					nauticos observabant quos cum in somnum sentirent effusos
-					per ancoralia, quadrupedo gradu repentes seseque suspensis
-					passibus iniectantes in scaphas eisdem sensim nihil
-					opinantibus adsistebant et incendente aviditate saevitiam ne
-					cedentium quidem ulli parcendo obtruncatis omnibus merces
-					opimas velut viles nullis repugnantibus avertebant. haecque
-					non diu sunt perpetrata.
+					My goal was to develop a niche in the Spanish market with an
+					affiliation website, while creating a webdesign that could
+					be replicable in any field. To succeed I had to develop the
+					SEO and the page optimization, that's why I made the website
+					from scratch and mobile first.
+				</p>
+			),
+			about_FR: (
+				<p>
+					Mon but était de développer une niche sur le marché espagnol
+					avec un site d'affiliation, tout en créant un design de site
+					reproduisable dans n'importe quel domaine. Il y a eu un
+					travail sur le SEO et l'optimisation des pages d'où mon
+					choix de le développer "from scratch" et en mobile first.
 				</p>
 			),
 			demo: "",
@@ -58,9 +59,16 @@ const Portfolio = ({ lang, langChosen }) => {
 		},
 
 		{
-			img: project2Logo,
-			name: "ExampleProjectTwo",
-			technologiesUsed: ["HTML5", "CSS3"],
+			img: jegwellLogo,
+			name: "Jegwell",
+			technologiesUsed: [
+				"WORDPRESS",
+				"WOOCOMMERCE",
+				"PHP",
+				"HTML5",
+				"CSS3",
+				"JAVASCRIPT",
+			],
 			about: (
 				<p>
 					Atque, ut Tullius ait, ut etiam ferae fame monitae plerumque
@@ -78,7 +86,7 @@ const Portfolio = ({ lang, langChosen }) => {
 					non diu sunt perpetrata.
 				</p>
 			),
-			demo: "",
+			demo: "https://jegwell.fr/",
 			code: "",
 		},
 	]);
