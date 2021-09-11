@@ -3,7 +3,7 @@ import ProjectDescription from "./ProjectDescription";
 import logo from "../Image/facebook-wow.svg";
 import maquinaHieloLogo from "../Image/maquinahieloIcon-192x192.png";
 import jegwellLogo from "../Image/jegwellLogo.png";
-import portfolioLogo from "../Image/portfolioLogo.svg";
+import portfolioLogo from "../Image/portfolioLogo.png";
 
 const Portfolio = ({ lang, langChosen }) => {
 	const [showClass, setShowClass] = useState("projectDescriptionWrapper");
