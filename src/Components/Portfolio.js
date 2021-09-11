@@ -54,8 +54,8 @@ const Portfolio = ({ lang, langChosen }) => {
 					choix de le développer "from scratch" et en mobile first.
 				</p>
 			),
-			demo: "",
-			code: "",
+			demo: "https://maquinahielo.es/",
+			code: "#",
 		},
 
 		{
@@ -69,25 +69,27 @@ const Portfolio = ({ lang, langChosen }) => {
 				"CSS3",
 				"JAVASCRIPT",
 			],
-			about: (
+			about_EN: (
 				<p>
-					Atque, ut Tullius ait, ut etiam ferae fame monitae plerumque
-					ad eum locum ubi aliquando pastae sunt revertuntur, ita
-					homines instar turbinis degressi montibus impeditis et
-					arduis loca petivere mari confinia, per quae viis latebrosis
-					sese convallibusque occultantes cum appeterent noctes luna
-					etiam tum cornuta ideoque nondum solido splendore fulgente
-					nauticos observabant quos cum in somnum sentirent effusos
-					per ancoralia, quadrupedo gradu repentes seseque suspensis
-					passibus iniectantes in scaphas eisdem sensim nihil
-					opinantibus adsistebant et incendente aviditate saevitiam ne
-					cedentium quidem ulli parcendo obtruncatis omnibus merces
-					opimas velut viles nullis repugnantibus avertebant. haecque
-					non diu sunt perpetrata.
+					A young entrepreneur in handmade jewelry needed a website
+					that she could manage herself. I opted for the Wordpress
+					CMS. I made the entire website for her, then taught her how
+					to use it (manage her orders, cancellations, modify the
+					design etc.)
+				</p>
+			),
+			about_FR: (
+				<p>
+					Une jeune entrepeneuse dans les bijoux fait main avait
+					besoin d'un site web qu'elle puisse gérer elle-même. J'ai
+					donc opter pour le CMS Wordpress. Je lui ai conçu le site
+					web entièrement, je lui ai ensuite enseigné comment le
+					prendre en main (gérer ses commandes, les annulations,
+					modifier le design etc.)
 				</p>
 			),
 			demo: "https://jegwell.fr/",
-			code: "",
+			code: "#",
 		},
 	]);
 	const Root = document.getElementById("root");
