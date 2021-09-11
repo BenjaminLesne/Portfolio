@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b93c18dd.chunk.css",
+    "main.css": "/Portfolio/static/css/main.531c871f.chunk.css",
     "main.js": "/Portfolio/static/js/main.49c27f5a.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.49c27f5a.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.9e287cfb.js",
@@ -8,9 +8,9 @@
     "static/js/2.92ad4bd3.chunk.js": "/Portfolio/static/js/2.92ad4bd3.chunk.js",
     "static/js/2.92ad4bd3.chunk.js.map": "/Portfolio/static/js/2.92ad4bd3.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.6ce58b9a3bebf8e92e38cd530b20518c.js": "/Portfolio/precache-manifest.6ce58b9a3bebf8e92e38cd530b20518c.js",
+    "precache-manifest.bd72d4ee13f9d684181618d44eae23c8.js": "/Portfolio/precache-manifest.bd72d4ee13f9d684181618d44eae23c8.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.b93c18dd.chunk.css.map": "/Portfolio/static/css/main.b93c18dd.chunk.css.map",
+    "static/css/main.531c871f.chunk.css.map": "/Portfolio/static/css/main.531c871f.chunk.css.map",
     "static/js/2.92ad4bd3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.92ad4bd3.chunk.js.LICENSE.txt",
     "static/media/CVBenjaminLESNE-Developpeur.pdf": "/Portfolio/static/media/CVBenjaminLESNE-Developpeur.d97dddf8.pdf",
     "static/media/France.svg": "/Portfolio/static/media/France.6925ecd4.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.9e287cfb.js",
     "static/js/2.92ad4bd3.chunk.js",
-    "static/css/main.b93c18dd.chunk.css",
+    "static/css/main.531c871f.chunk.css",
     "static/js/main.49c27f5a.chunk.js"
   ]
 }
