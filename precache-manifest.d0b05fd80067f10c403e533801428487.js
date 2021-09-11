@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19c1a9ee96c1500ed4a8a4f706fe8469",
+    "revision": "a304e3b70a81f78a6904c8cc4d00a4b7",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "ee4a758a8b9e2ed5eec0",
+    "revision": "eacf1d2475f63aed4342",
     "url": "/Portfolio/static/css/main.531c871f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.92ad4bd3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee4a758a8b9e2ed5eec0",
-    "url": "/Portfolio/static/js/main.e986cc48.chunk.js"
+    "revision": "eacf1d2475f63aed4342",
+    "url": "/Portfolio/static/js/main.2468fae1.chunk.js"
   },
   {
     "revision": "627bdb01d220a474fd8b",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/jegwellLogo.fcb650a6.png"
   },
   {
-    "revision": "6ee4bc0dc284a7c40115ec4343509588",
-    "url": "/Portfolio/static/media/portfolioLogo.6ee4bc0d.png"
+    "revision": "6dd1b5b436711e03b6ec16845f232b3c",
+    "url": "/Portfolio/static/media/portfolioLogo.6dd1b5b4.png"
   },
   {
     "revision": "81ccb4023d8042e5e977433d4e01de81",
