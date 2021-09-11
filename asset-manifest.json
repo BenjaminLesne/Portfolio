@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7de999fa.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c76d37bc.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c76d37bc.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.e4a2b9bc.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e4a2b9bc.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.9e287cfb.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9e287cfb.js.map",
-    "static/js/2.79e9174d.chunk.js": "/Portfolio/static/js/2.79e9174d.chunk.js",
-    "static/js/2.79e9174d.chunk.js.map": "/Portfolio/static/js/2.79e9174d.chunk.js.map",
+    "static/js/2.92ad4bd3.chunk.js": "/Portfolio/static/js/2.92ad4bd3.chunk.js",
+    "static/js/2.92ad4bd3.chunk.js.map": "/Portfolio/static/js/2.92ad4bd3.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.f1eeb953af6d2e38b236aea43280a6e2.js": "/Portfolio/precache-manifest.f1eeb953af6d2e38b236aea43280a6e2.js",
+    "precache-manifest.4d2e4549f0352c6d91490fafbf32b774.js": "/Portfolio/precache-manifest.4d2e4549f0352c6d91490fafbf32b774.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.7de999fa.chunk.css.map": "/Portfolio/static/css/main.7de999fa.chunk.css.map",
-    "static/js/2.79e9174d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.79e9174d.chunk.js.LICENSE.txt",
-    "static/media/CVBenjaminLESNE-Developpeur.pdf": "/Portfolio/static/media/CVBenjaminLESNE-Developpeur.293bb95d.pdf",
+    "static/js/2.92ad4bd3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.92ad4bd3.chunk.js.LICENSE.txt",
+    "static/media/CVBenjaminLESNE-Developpeur.pdf": "/Portfolio/static/media/CVBenjaminLESNE-Developpeur.d97dddf8.pdf",
     "static/media/France.svg": "/Portfolio/static/media/France.6925ecd4.svg",
     "static/media/facebook-wow.svg": "/Portfolio/static/media/facebook-wow.d9dc7b08.svg",
     "static/media/App.css": "/Portfolio/static/media/github-brands.86f1ca75.svg",
+    "static/media/jegwellLogo.svg": "/Portfolio/static/media/jegwellLogo.33800a43.svg",
     "static/media/portfolioLogo.svg": "/Portfolio/static/media/portfolioLogo.421bd8be.svg",
-    "static/media/react.svg": "/Portfolio/static/media/react.4009eef3.svg",
     "static/media/unitedKingdom.svg": "/Portfolio/static/media/unitedKingdom.81ccb402.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9e287cfb.js",
-    "static/js/2.79e9174d.chunk.js",
+    "static/js/2.92ad4bd3.chunk.js",
     "static/css/main.7de999fa.chunk.css",
-    "static/js/main.c76d37bc.chunk.js"
+    "static/js/main.e4a2b9bc.chunk.js"
   ]
 }

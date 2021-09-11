@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8f891a375f7f7283532a949d3d641ae",
+    "revision": "7add1c18a273156009b1fa8d870dcafb",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "3ecf1b6b046e59bec675",
+    "revision": "9e03c5f9d7643d69df6f",
     "url": "/Portfolio/static/css/main.7de999fa.chunk.css"
   },
   {
-    "revision": "5938dd76dfd8158df7df",
-    "url": "/Portfolio/static/js/2.79e9174d.chunk.js"
+    "revision": "fe4b622d3eb86b060069",
+    "url": "/Portfolio/static/js/2.92ad4bd3.chunk.js"
   },
   {
     "revision": "8d190e2d02f8e768921a63f56a741895",
-    "url": "/Portfolio/static/js/2.79e9174d.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.92ad4bd3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ecf1b6b046e59bec675",
-    "url": "/Portfolio/static/js/main.c76d37bc.chunk.js"
+    "revision": "9e03c5f9d7643d69df6f",
+    "url": "/Portfolio/static/js/main.e4a2b9bc.chunk.js"
   },
   {
     "revision": "627bdb01d220a474fd8b",
     "url": "/Portfolio/static/js/runtime-main.9e287cfb.js"
   },
   {
-    "revision": "293bb95d7b745406c37a2f417243a8c6",
-    "url": "/Portfolio/static/media/CVBenjaminLESNE-Developpeur.293bb95d.pdf"
+    "revision": "d97dddf8fc4e5c1ef4524cbc3915892b",
+    "url": "/Portfolio/static/media/CVBenjaminLESNE-Developpeur.d97dddf8.pdf"
   },
   {
     "revision": "6925ecd45a23c632e299ceb9543a79b1",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/github-brands.86f1ca75.svg"
   },
   {
-    "revision": "421bd8be1e730a24788f1e5a884ef637",
-    "url": "/Portfolio/static/media/portfolioLogo.421bd8be.svg"
+    "revision": "33800a430cdd770edd706d589557a3f2",
+    "url": "/Portfolio/static/media/jegwellLogo.33800a43.svg"
   },
   {
-    "revision": "4009eef3b3e291f296e71962c70895c5",
-    "url": "/Portfolio/static/media/react.4009eef3.svg"
+    "revision": "421bd8be1e730a24788f1e5a884ef637",
+    "url": "/Portfolio/static/media/portfolioLogo.421bd8be.svg"
   },
   {
     "revision": "81ccb4023d8042e5e977433d4e01de81",
