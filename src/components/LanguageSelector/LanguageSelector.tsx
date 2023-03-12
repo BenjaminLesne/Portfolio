@@ -1,10 +1,11 @@
-import { useEffect } from "react";
-import UkFlag from "../../assets/logos/languages/UkFlag.svg";
-import FrenchFlag from "../../assets/logos/languages/FrenchFlag.svg";
+import React from "react";
+// import { useEffect } from "react";
+// import UkFlag from "../../assets/logos/languages/UkFlag.svg";
+// import FrenchFlag from "../../assets/logos/languages/FrenchFlag.svg";
 
 import "./LanguageSelector.css";
 // gérer les props, utiliser i18n a la place (changeLanguage() and t function)
- export const LanguageSelector = () => <div></div> 
+export const LanguageSelector = () => <div></div>;
 //   function handleLanguageChange(language) {
 //     const currentUrl = new URL(window.location);
 //     const languageSelectorButton = document.querySelector(
@@ -82,4 +83,3 @@ import "./LanguageSelector.css";
 //     </div>
 //   );
 // };
-

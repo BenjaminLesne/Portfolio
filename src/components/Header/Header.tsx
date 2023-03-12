@@ -1,3 +1,4 @@
+import React from "react";
 import { LanguageSelector } from "../LanguageSelector/LanguageSelector";
 import { enableScroll, disableScroll } from "./functions";
 import { useState } from "react";
@@ -17,8 +18,8 @@ export const Header = () => {
     enableScroll();
     setIsNavOpen(false);
   }
-  const { t } = useTranslation()
-  const textContent = t('links', { ns: "headerNavItems", returnObjects: true })
+  const { t } = useTranslation();
+  const textContent = t("links", { ns: "headerNavItems", returnObjects: true });
 
   return (
     <header className="Header" data-testid="header">
@@ -54,4 +55,3 @@ export const Header = () => {
     </header>
   );
 };
-
