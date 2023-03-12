@@ -1,12 +1,14 @@
-import './App.css'
+import "./App.css";
+import { Header } from "./components/components"
 
 function App() {
-
   return (
-    <div className="App" lang='fr' data-testid="App">
-      app running yay
-    </div>
-  )
+      <> 
+      <Header/>
+        <main>
+        </main>
+      </>
+  );
 }
 
-export default App
+export default App;

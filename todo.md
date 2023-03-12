@@ -1,0 +1,2 @@
+- githooks on commit/push (run tests, format with prettier, eslint)
+- install eslint

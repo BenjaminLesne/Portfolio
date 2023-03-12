@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "type": "anchor",
+      "linkText": "compétences",
+      "href": "#skills"
+    },
+    {
+      "type": "anchor",
+      "linkText": "mes projets",
+      "href": "#my-projects"
+    },
+    {
+      "type": "anchor",
+      "linkText": "me contacter",
+      "href": "#contact-me"
+    },
+    {
+      "type": "pdf",
+      "linkText": "cv",
+      "href": "frenchCV"
+    }
+  ]
+}

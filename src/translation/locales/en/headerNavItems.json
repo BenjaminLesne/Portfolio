@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "type": "anchor",
+      "linkText": "skills",
+      "href": "#skills"
+    },
+    {
+      "type": "anchor",
+      "linkText": "my projects",
+      "href": "#my-projects"
+    },
+    {
+      "type": "anchor",
+      "linkText": "contact me",
+      "href": "#contact-me"
+    },
+    {
+      "type": "pdf",
+      "linkText": "cv",
+      "href": "englishCV"
+    }
+  ]
+}

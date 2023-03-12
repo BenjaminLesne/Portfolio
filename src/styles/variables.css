@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #25364a;
+  --section-horizontal-padding: clamp(20px, 6%, 100vw);
+  --section-vertical-padding: clamp(10px, 6%, 50px);
+  --hero-height: calc(50vh - 46.4833px);
+  --hero-max-height: 300px;
+  --picture-height: 123;
+  --filter-transition-time: 0.4s;
+  --header-anchor-padding: 5px;
+  --button-hover-transition: 0.4s ease-in-out;
+  --aside-transition-icon: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --project-width: clamp(300px, 40vw, 375px);
+  --project-height: calc(var(--project-width) / 3 * 2);
+  --skills-section-big-gap: 50px;
+  --skills-section-medium-gap: 30px;
+  --about-me-font-size: clamp(1.1rem, 1.5vw, 1.25rem);
+  --burger-button-slice-gap: 9px;
+  --burger-button-slice-width: 30px;
+  --burger-button-slice-border-width: 2px;
+  --navigation-opening-duration: 0.75s;
+  --project-image-transition-duration: 0.25s;
+}

@@ -1,0 +1,37 @@
+.LanguageSelector {
+  display: flex;
+  min-width: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.LanguageSelector__flags {
+  width: 25%;
+}
+
+.LanguageSelector__button {
+  border-radius: 30px;
+  width: 40%;
+  aspect-ratio: 2 / 1;
+  background: grey;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.75);
+}
+
+.LanguageSelector__button.active {
+  background: #00acee;
+}
+
+.LanguageSelector__button.active .LanguageSelector__inner-circle {
+  margin-left: 50%;
+}
+
+.LanguageSelector__inner-circle {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  margin-right: 50%;
+}
