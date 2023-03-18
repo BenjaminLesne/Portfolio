@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@playwright/test': ^1.31.2
   '@testing-library/react': ^14.0.0
   '@testing-library/user-event': ^14.4.3
   '@types/node': ^18.15.3
@@ -33,6 +34,7 @@ dependencies:
   react-i18next: 12.2.0_nuvg7z3l7c7q3mgp6kac62miay
 
 devDependencies:
+  '@playwright/test': 1.31.2
   '@types/node': 18.15.3
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -594,6 +596,17 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
+    dev: true
+
+  /@playwright/test/1.31.2:
+    resolution: {integrity: sha512-BYVutxDI4JeZKV1+ups6dt5WiqKhjBtIYowyZIJ3kBDmJgsuPKsqqKNIMFbUePLSCmp2cZu+BDL427RcNKTRYw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      '@types/node': 18.15.3
+      playwright-core: 1.31.2
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: true
 
   /@testing-library/dom/9.0.0:
@@ -2643,6 +2656,12 @@ packages:
       jsonc-parser: 3.2.0
       mlly: 1.1.1
       pathe: 1.1.0
+    dev: true
+
+  /playwright-core/1.31.2:
+    resolution: {integrity: sha512-a1dFgCNQw4vCsG7bnojZjDnPewZcw7tZUNFN0ZkcLYKj+mPmXvg4MpaaKZ5SgqPsOmqIf2YsVRkgqiRDxD+fDQ==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /postcss/8.4.21:

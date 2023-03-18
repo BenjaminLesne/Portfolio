@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 # custom
+/test-results/
+/playwright-report/
+/playwright/.cache/
