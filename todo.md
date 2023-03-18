@@ -1,2 +1,3 @@
-- githooks on commit/push (run tests, format with prettier, eslint)
-- install eslint
+- tuto, install i18n dans react (suspense app, config, import it in index.js, do the namespaces)
+- make the header.test.ts
+- ajouter une animation de chargement au suspense

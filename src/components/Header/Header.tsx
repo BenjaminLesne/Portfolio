@@ -1,5 +1,5 @@
 import React from "react";
-import { LanguageSelector } from "../LanguageSelector/LanguageSelector";
+import { LanguageSelector } from "./LanguageSelector/LanguageSelector";
 import { enableScroll, disableScroll } from "./functions";
 import { useState } from "react";
 

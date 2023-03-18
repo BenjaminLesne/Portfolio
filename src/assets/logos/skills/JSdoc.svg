@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="75" height="75" viewBox="0 0 75 75" xml:space="preserve">
+<desc>Created with Fabric.js 4.2.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 37.5 37.5)" id="a20dd828-6df6-4142-a316-734f4c04a984"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-37.5" y="-37.5" rx="0" ry="0" width="75" height="75" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="890c4c3e-5ca8-4608-96dd-386f2c5ea890"  >
+</g>
+<g transform="matrix(1 0 0 1 37.5 37.5)" style="" id="b676840a-26f4-48ae-ad4a-73e88fc2bab7"  >
+		<text xml:space="preserve" font-family="Raleway" font-size="23" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-34.17" y="7.23" >JSdoc</tspan></text>
+</g>
+</svg>
