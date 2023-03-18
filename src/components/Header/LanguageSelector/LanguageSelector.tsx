@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
+import React, { useRef } from "react";
 import UkFlag from "../../../assets/logos/languages/UkFlag.svg";
 import FrenchFlag from "../../../assets/logos/languages/FrenchFlag.svg";
 import { useTranslation } from "react-i18next";
@@ -8,18 +7,16 @@ import "./LanguageSelector.css";
 export const LanguageSelector = () => {
   const { i18n } = useTranslation();
   const { changeLanguage, language } = i18n;
-  const languageSelectorButton = document.querySelector(
-    ".LanguageSelector__button"
-  );
+  const languageSelectorButtonRef = useRef(null);
+  const languageSelectorButton: null | HTMLElement =
+    languageSelectorButtonRef.current;
 
   function handleLanguageChange(language: string | null) {
     function updateToFrenchUI() {
-      languageSelectorButton?.classList.remove("active");
       changeLanguage("fr");
     }
 
     function updateToEnglishUI() {
-      languageSelectorButton?.classList.add("active");
       changeLanguage("en");
     }
 
@@ -46,14 +43,6 @@ export const LanguageSelector = () => {
     }
   }
 
-  useEffect(() => {
-    if (language === "en") {
-      document
-        ?.querySelector(".LanguageSelector__button")
-        ?.classList.add("active");
-    }
-  }, []);
-
   return (
     <div className="LanguageSelector">
       <img
@@ -65,8 +54,11 @@ export const LanguageSelector = () => {
       />
       <div
         data-testid="LanguageSelectorButton"
-        className="LanguageSelector__button"
+        className={
+          "LanguageSelector__button " + (language.includes("en") && "active")
+        }
         onClick={() => handleLanguageChange(null)}
+        ref={languageSelectorButtonRef}
       >
         <div id="inner-circle" className="LanguageSelector__inner-circle"></div>
       </div>

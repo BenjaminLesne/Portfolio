@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest run; playwright test",
+    "test": "vitest run; playwright test --config playwright.config.ts",
     "coverage": "vitest run --coverage",
     "prepare": "husky install"
   },
