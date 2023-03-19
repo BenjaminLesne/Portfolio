@@ -1,3 +1,4 @@
-import technologies from "./technologies.json"
+import technologies from "./technologies.json";
+import utils from "./utils.json";
 
-export { technologies }
+export { technologies, utils };

@@ -19,7 +19,7 @@ export const Header = () => {
     setIsNavOpen(false);
   }
   const { t } = useTranslation();
-  const textContent = t("links", { ns: "headerNavItems", returnObjects: true });
+  const textContent = t("links", { ns: "navigation", returnObjects: true });
 
   return (
     <header className="Header" data-testid="header">
