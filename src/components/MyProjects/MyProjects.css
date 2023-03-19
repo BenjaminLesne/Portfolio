@@ -1,0 +1,101 @@
+@import url("../../styles/variables.css");
+
+.MyProjects {
+  color: white;
+  background-color: var(--primary-color);
+  padding: var(--section-vertical-padding) var(--section-horizontal-padding);
+  padding-bottom: 0;
+  margin-bottom: calc(var(--project-height) / 2);
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.MyProjects.smooth-height-transition::before {
+  transition: 2s ease-in-out;
+}
+
+.MyProjects.smooth-height-transition-enter-active::before {
+  transition: 2s ease-in-out;
+}
+
+.MyProjects::before {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(var(--project-height) / 2);
+  content: "";
+}
+
+.MyProjects__showcase {
+  margin-top: 1em;
+}
+
+.MyProjects__filters {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.MyProjects__filter {
+  text-align: center;
+  border-bottom: solid rgba(255, 255, 255, 0.2) 2px;
+  color: rgba(255, 255, 255, 0.2);
+  flex: 1;
+  cursor: pointer;
+  transition: var(--filter-transition-time) ease;
+
+  text-transform: uppercase;
+  user-select: none;
+
+  margin: 10px 0;
+  min-width: 110px;
+  max-width: 150px;
+}
+
+.MyProjects__filter.active {
+  animation: fadeIn var(--filter-transition-time) ease-in forwards;
+}
+
+.MyProjects__filter.fadeOut {
+  animation: fadeIn var(--filter-transition-time) ease-in forwards reverse;
+}
+
+@keyframes fadeIn {
+  from {
+    border-bottom: solid rgba(255, 255, 255, 0.2) 2px;
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  to {
+    border-bottom: solid white 2px;
+    color: white;
+  }
+}
+
+.MyProjects__projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.MyProjects__project {
+  height: var(--project-height);
+  width: var(--project-width);
+}
+
+@media screen and (max-width: 460px) {
+  .MyProjects__filters {
+    display: none;
+  }
+
+  .MyProjects__projects {
+    margin-top: 0;
+  }
+}

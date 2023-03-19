@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Header, Hero, AboutMe, Skills } from "./components/components";
+import { MyProjects } from "./components/MyProjects/MyProjects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Hero />
         <AboutMe />
         <Skills />
+        <MyProjects />
       </main>
     </>
   );

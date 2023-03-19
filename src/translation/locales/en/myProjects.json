@@ -1,0 +1,23 @@
+{
+  "heading": "my projects",
+  "content": [
+    {
+      "name": "Jegwell",
+      "websiteUrl": "https://jegwell.fr",
+      "sourceCodeUrl": "https://github.com/BenjaminLesne/Jegwell",
+      "description": "Official E-commerce of Jegwell. It's a handmade jewelry brand with over 6000 followers on instagram!",
+      "colorMask": "75, 131, 130",
+      "image": "Jegwell",
+      "alt": "screenshot of the Jegwell.fr website"
+    },
+    {
+      "name": "ohmyfood",
+      "websiteUrl": "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
+      "sourceCodeUrl": "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
+      "description": "Mobile-first site that lists the menus of gourmet restaurants (OpenClassrooms training project).",
+      "colorMask": "157, 83, 83",
+      "image": "ohmyfood",
+      "alt": "ohmyfood website screenshot"
+    }
+  ]
+}
