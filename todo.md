@@ -1,3 +1,3 @@
 - tuto, install i18n dans react (suspense app, config, import it in index.js, do the namespaces)
 - ajouter une animation de chargement au suspense
-- migrate hero component (test e2e, etc)
+- add playwright, vitest, pnpm?, vite, i18n in skills

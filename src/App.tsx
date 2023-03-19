@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Header } from "./components/components";
-import { Hero } from "./components/Hero/Hero";
-import { AboutMe } from "./components/AboutMe/AboutMe";
+import { Header, Hero, AboutMe, Skills } from "./components/components";
 
 function App() {
   return (
@@ -11,6 +9,7 @@ function App() {
       <main>
         <Hero />
         <AboutMe />
+        <Skills />
       </main>
     </>
   );

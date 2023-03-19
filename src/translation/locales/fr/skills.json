@@ -1,0 +1,16 @@
+{
+    "heading": "compétences",
+    "usingNow": {
+        "heading": "j'utilise"
+    },
+    "learning": {
+        "heading": "j'apprends"
+    },
+    "whatIspeak": {
+        "heading": "je parle",
+        "language": {
+            "en": "anglais courant",
+            "fr": "français natif" 
+        }
+    }
+}

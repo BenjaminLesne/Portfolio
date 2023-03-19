@@ -1,0 +1,62 @@
+@import url("../../styles/variables.css");
+
+.Skills {
+  padding: var(--section-vertical-padding) var(--section-horizontal-padding);
+
+  gap: 10%;
+}
+
+/* to win the css priority with .section-heading in app.css */
+.Skills .Skills__heading {
+  margin-bottom: 30px;
+}
+
+.Skills__subSections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--skills-section-medium-gap);
+}
+
+.Skills__subHeading {
+  font-weight: 400;
+}
+
+.Skills__subHeading::first-letter {
+  text-transform: uppercase;
+}
+
+.Skills__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 75px);
+  gap: var(--skills-section-medium-gap) clamp(50px, 4.5vw, 60px);
+  margin-left: 10px;
+}
+
+.Skills__item {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Skills__logo-wrapper {
+  --side-length: clamp(50px, 4vw, 60px);
+  width: var(--side-length);
+  height: var(--side-length);
+  display: flex;
+}
+
+.Skills__logo {
+  width: 100%;
+  max-height: 100%;
+}
+
+.Skills__name {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 1vw, 0.9rem);
+  text-align: center;
+}

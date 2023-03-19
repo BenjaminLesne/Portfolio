@@ -1,0 +1,16 @@
+{
+    "heading": "skills",
+    "usingNow": {
+        "heading": "using now"
+    },
+    "learning": {
+        "heading": "learning"
+    },
+    "whatIspeak": {
+        "heading": "what I speak",
+        "language": {
+            "en": "fluent english",
+            "fr": "french native" 
+        }
+    }
+}
