@@ -1,0 +1,82 @@
+/* @import url("../../styles/defaultSection.css"); moved to app.css */
+@import url("../../styles/variables.css");
+
+.AboutMe {
+  color: white;
+  background-color: var(--primary-color);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: clamp(350px, 30vw, 410px);
+  /* max-height: var(--hero-max-height); */
+}
+
+.AboutMe__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--section-vertical-padding) var(--section-horizontal-padding);
+}
+
+.AboutMe__heading {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: clamp(1rem, 2.5vw, 2.5rem);
+}
+
+/* to win the css priority battle with section-heading in app.css */
+.AboutMe .AboutMe__heading {
+  margin-bottom: 0;
+}
+
+.AboutMe__story {
+  font-size: var(--about-me-font-size);
+  line-height: clamp(0.75rem, calc(1.5vw * 2), calc(1.25rem * 2));
+  text-align: justify;
+}
+
+.AboutMe__callToAction {
+  text-decoration: underline;
+  font-style: normal;
+  font-size: var(--about-me-font-size);
+}
+
+.AboutMe__callToAction::first-letter {
+  text-transform: uppercase;
+}
+
+.AboutMe__picture {
+  height: 123%;
+  padding-right: var(--section-horizontal-padding);
+
+  /* make the picture behave like bottom:0px; in its container. */
+  transform: translateY(calc(100% * ((100 / var(--picture-height)) - 1)));
+}
+
+@media screen and (max-width: 830px) {
+  .AboutMe {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: initial;
+  }
+
+  .AboutMe__picture {
+    padding: initial;
+    position: absolute;
+    top: -42px;
+    height: 140px;
+    border-radius: 100%;
+    background: rgb(255, 255, 255);
+  }
+
+  .AboutMe__text-wrapper {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .AboutMe__story {
+    font-size: var(--about-me-font-size);
+    line-height: clamp(2.2rem, calc(1.5vw * 2), calc(1.35rem * 2));
+    text-align: justify;
+  }
+}
