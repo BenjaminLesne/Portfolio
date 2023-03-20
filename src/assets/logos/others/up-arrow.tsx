@@ -2,9 +2,8 @@ import React from "react";
 type Props = {
   className: string;
 };
-const UpArrow = ({ className }: Props) => {
+export const UpArrow = ({ className }: Props) => {
   return (
-    <>
       <svg
         className={className}
         width="136mm"
@@ -17,8 +16,5 @@ const UpArrow = ({ className }: Props) => {
           strokeWidth=".26458"
         />
       </svg>
-    </>
   );
 };
-
-export default UpArrow;

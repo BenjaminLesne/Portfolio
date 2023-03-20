@@ -1,0 +1,76 @@
+@import url("../../styles/variables.css");
+
+.ContactMe {
+  padding: var(--section-horizontal-padding);
+  height: 50vh;
+
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactMe__content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactMe__heading {
+  text-align: center;
+}
+
+.ContactMe__items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ContactMe__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: center; */
+}
+
+.ContactMe__link {
+  border: none;
+
+  background-color: white;
+  transition: var(--aside-transition-icon);
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+}
+
+.ContactMe__icon {
+  --dimension: 35px;
+  width: var(--dimension);
+  height: var(--dimension);
+
+  border: 2px solid var(--primary-color);
+  border-radius: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  transition: var(--aside-transition-icon);
+  position: relative;
+}
+
+.ContactMe__value {
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+a.ContactMe__value {
+  text-decoration: underline;
+}

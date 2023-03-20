@@ -1,0 +1,24 @@
+{
+  "heading": "contact me",
+  "email": "benjamin.lesne@outlook.fr",
+  "phone": {
+    "href": "#",
+    "message": "061628535",
+    "icon": "Phone"
+  },
+  "Resume": {
+    "href": "src/assets/CV/CV_Benjamin-Lesne_EN.pdf",
+    "message": "My resume",
+    "icon": "Resume"
+  },
+  "Github": {
+    "href": "https://github.com/BenjaminLesne",
+    "message": "My Github",
+    "icon": "Github"
+  },
+  "LinkedIn": {
+    "href": "https://www.linkedin.com/in/benjamin-lesne/?locale=en_US",
+    "message": "My LinkedIn",
+    "icon": "LinkedIn"
+  }
+}

@@ -1,14 +1,13 @@
 import React from "react";
 type Props = {
-  className: string;
-  color: string;
+  color?: string;
 };
 
-const AtIcon = ({ className, color }: Props) => {
+const Email = ({ color }: Props) => {
   return (
     <svg
       fill={color ? color : "currentColor"}
-      className={className}
+      className="ContactMe__icon"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
@@ -22,4 +21,4 @@ const AtIcon = ({ className, color }: Props) => {
   );
 };
 
-export default AtIcon;
+export default Email;

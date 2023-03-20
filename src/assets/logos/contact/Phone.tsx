@@ -1,11 +1,8 @@
 import React from "react";
-type Props = {
-  className: string;
-};
-const PhoneIcon = ({ className }: Props) => {
+ const Phone = () => {
   return (
     <svg
-      className={className}
+      className="ContactMe__icon"
       aria-hidden="true"
       focusable="false"
       role="img"
@@ -19,5 +16,4 @@ const PhoneIcon = ({ className }: Props) => {
     </svg>
   );
 };
-
-export default PhoneIcon;
+export default Phone

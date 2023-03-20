@@ -1,14 +1,13 @@
 import React from "react";
 type Props = {
-  className: string;
-  color: string;
+  color?: string;
 };
 
-const GithubIcon = ({ className, color }: Props) => {
+const Github = ({ color }: Props) => {
   return (
     <svg
       fill={color ? color : "currentColor"}
-      className={className}
+      className="ContactMe__icon"
       viewBox="0 0 256 250"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -18,5 +17,4 @@ const GithubIcon = ({ className, color }: Props) => {
     </svg>
   );
 };
-
-export default GithubIcon;
+export default Github
