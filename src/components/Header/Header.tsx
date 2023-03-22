@@ -22,7 +22,7 @@ export const Header = () => {
   const textContent = t("links", { ns: "navigation", returnObjects: true });
 
   return (
-    <header className="Header" data-testid="header">
+    <header className="Header" data-testid="header" id="header">
       <LanguageSelector />
       <button
         className="Navigation-open-button"

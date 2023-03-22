@@ -1,6 +1,14 @@
 import React from "react";
 import "./App.css";
-import { Header, Hero, AboutMe, Skills, MyProjects, ContactMe } from "./components/components";
+import {
+  Header,
+  Hero,
+  AboutMe,
+  Skills,
+  MyProjects,
+  ContactMe,
+  Footer,
+} from "./components/components";
 
 function App() {
   return (
@@ -13,6 +21,7 @@ function App() {
         <MyProjects />
         <ContactMe />
       </main>
+      <Footer />
     </>
   );
 }

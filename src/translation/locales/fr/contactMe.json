@@ -7,7 +7,7 @@
     "icon": "Phone"
   },
   "Resume": {
-    "href": "src/assets/CV/CV_Benjamin-Lesne_EN.pdf",
+    "href": "src/assets/CV/CV_Benjamin-Lesne_FR.pdf",
     "message": "mon CV",
     "icon": "Resume"
   },
@@ -17,7 +17,7 @@
     "icon": "Github"
   },
   "LinkedIn": {
-    "href": "https://www.linkedin.com/in/benjamin-lesne/?locale=en_US",
+    "href": "https://www.linkedin.com/in/benjamin-lesne/",
     "message": "LinkedIn",
     "icon": "LinkedIn"
   }
