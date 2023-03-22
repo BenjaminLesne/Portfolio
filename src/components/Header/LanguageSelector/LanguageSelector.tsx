@@ -55,7 +55,7 @@ export const LanguageSelector = () => {
       <div
         data-testid="LanguageSelectorButton"
         className={
-          "LanguageSelector__button " + (language.includes("en") && "active")
+          "LanguageSelector__button " + (language?.includes("en") && "active")
         }
         onClick={() => handleLanguageChange(null)}
         ref={languageSelectorButtonRef}

@@ -1,3 +1,3 @@
 - tuto, install i18n dans react (suspense app, config, import it in index.js, do the namespaces)
 - ajouter une animation de chargement au suspense
-- add playwright, vitest, pnpm?, vite, i18n in skills
+- faire en sorte que dans les tests unitaire on est accès au traduction. => wrap component like main.ts

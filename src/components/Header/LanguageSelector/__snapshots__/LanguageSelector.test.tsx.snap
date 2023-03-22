@@ -15,7 +15,7 @@ exports[`The LanguageSelector component > the snapshot match 1`] = `
           src="/src/assets/logos/languages/FrenchFlag.svg"
         />
         <div
-          class="LanguageSelector__button"
+          class="LanguageSelector__button undefined"
           data-testid="LanguageSelectorButton"
         >
           <div
@@ -43,7 +43,7 @@ exports[`The LanguageSelector component > the snapshot match 1`] = `
         src="/src/assets/logos/languages/FrenchFlag.svg"
       />
       <div
-        class="LanguageSelector__button"
+        class="LanguageSelector__button undefined"
         data-testid="LanguageSelectorButton"
       >
         <div
