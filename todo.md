@@ -1,3 +1,3 @@
 - tuto, install i18n dans react (suspense app, config, import it in index.js, do the namespaces)
 - ajouter une animation de chargement au suspense
-- faire en sorte que dans les tests unitaire on est accès au traduction. => wrap component like main.ts
+- screenshots.png files of projects are not includes in dist when we pnpm build. (I guess vite doesn't know we use this because they way we create the url... see MyProjects)

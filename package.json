@@ -7,9 +7,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest run;playwright test",
+    "test": "tsc && vitest run && playwright test",
     "coverage": "vitest run --coverage",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "rm -rf dist && pnpm build && gh-pages -d dist"
   },
   "dependencies": {
     "@testing-library/react": "^14.0.0",

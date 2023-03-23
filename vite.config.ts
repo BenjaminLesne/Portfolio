@@ -9,4 +9,5 @@ export default defineConfig({
     setupFiles: ["./vitestGlobalSetup.js"],
     include: ["src/**/*.test.tsx"],
   },
+  base: "/Portfolio/",
 });

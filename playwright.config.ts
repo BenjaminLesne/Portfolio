@@ -18,6 +18,9 @@ export default defineConfig({
      * For example in `await expect(locator).toHaveText();`
      */
     timeout: 5000,
+    toMatchSnapshot: {
+      maxDiffPixels: 10,
+    },
   },
   /* Run tests in files in parallel */
   fullyParallel: true,

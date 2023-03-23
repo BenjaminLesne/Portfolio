@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Project.css";
 import { useTranslation } from "react-i18next";
 type Props = {
@@ -6,7 +6,7 @@ type Props = {
   description: string;
   sourceCodeUrl: string;
   websiteUrl: string;
-  image: string;
+  imagePath: string;
   alt: string;
   colorMask: string;
 };
@@ -15,7 +15,7 @@ export const Project = ({
   description,
   sourceCodeUrl,
   websiteUrl,
-  image,
+  imagePath,
   alt,
   colorMask,
 }: Props) => {
@@ -23,11 +23,7 @@ export const Project = ({
   return (
     <article className="Project">
       <figure className="Project__content-wrapper">
-        <img
-          className="Project__image"
-          src={`/src/assets/website-screenshots/${image}.png`}
-          alt={alt}
-        />
+        <img className="Project__image" src={imagePath} alt={alt} />
         <div
           className="Project__overlay"
           style={{ backgroundColor: `rgba(${colorMask}, 0.8)` }}

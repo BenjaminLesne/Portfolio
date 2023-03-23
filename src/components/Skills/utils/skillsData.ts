@@ -23,94 +23,94 @@ import FrenchFlag from "../../../assets/logos/languages/FrenchFlag.svg";
 
 export const skillsData = [
   {
-    headingKey: "usingNow.heading", 
+    headingKey: "usingNow.heading",
     content: [
       {
         logo: reactLogo,
-        nameKey:"react",
+        nameKey: "react",
       },
       {
         logo: typeScriptLogo,
-        nameKey:"typescript",
+        nameKey: "typescript",
       },
       {
         logo: javaScriptLogo,
-        nameKey:"javascript",
+        nameKey: "javascript",
       },
       {
         logo: css3Logo,
-        nameKey:"css3",
+        nameKey: "css3",
       },
       {
         logo: html5Logo,
-        nameKey:"html5",
+        nameKey: "html5",
       },
       {
         logo: jestLogo,
-         nameKey:"jest",
+        nameKey: "jest",
       },
       {
         logo: reactTestingLibraryLogo,
-         nameKey:"react testing library",
+        nameKey: "react testing library",
       },
       {
         logo: playwrightLogo,
-        nameKey:"playwright",
+        nameKey: "playwright",
       },
       {
         logo: viteLogo,
-        nameKey:"vite",
+        nameKey: "vite",
       },
       {
         logo: reduxLogo,
-        nameKey:"redux",
-          },
-          {
-            logo: vitestLogo,
-             nameKey:"vitest",
-          },
-          {
-            logo: sassLogo,
-             nameKey:"sass",
-          },
-          {
-            logo: i18nextLogo,
-            nameKey:"i18next",
-          },
-          {
-            logo: gitLogo,
-            nameKey:"git",
-          },
-          {
-            logo: agileLogo,
-             nameKey:"Agile",
-          },
-          {
-            logo: phpLogo,
-             nameKey:"PHP",
-          }
-        ],
+        nameKey: "redux",
       },
       {
-        headingKey: "learning.heading",
-        content: [
-          {
-            logo: storyBookLogo,
-            nameKey:"Storybook",
-          },
-        ],
+        logo: vitestLogo,
+        nameKey: "vitest",
       },
       {
-        headingKey: "whatIspeak.heading",
-        content: [
-          {
-            logo: FrenchFlag,
-            nameKey: "whatIspeak.language.fr",
-          },
-          {
-            logo: UkFlag,
-            nameKey: "whatIspeak.language.en",
-          }
-        ],
+        logo: sassLogo,
+        nameKey: "sass",
       },
-    ]
+      {
+        logo: i18nextLogo,
+        nameKey: "i18next",
+      },
+      {
+        logo: gitLogo,
+        nameKey: "git",
+      },
+      {
+        logo: agileLogo,
+        nameKey: "Agile",
+      },
+      {
+        logo: phpLogo,
+        nameKey: "PHP",
+      },
+    ],
+  },
+  {
+    headingKey: "learning.heading",
+    content: [
+      {
+        logo: storyBookLogo,
+        nameKey: "Storybook",
+      },
+    ],
+  },
+  {
+    headingKey: "whatIspeak.heading",
+    content: [
+      {
+        logo: FrenchFlag,
+        nameKey: "whatIspeak.language.fr",
+      },
+      {
+        logo: UkFlag,
+        nameKey: "whatIspeak.language.en",
+      },
+    ],
+  },
+];

@@ -12,7 +12,7 @@ exports[`The LanguageSelector component > the snapshot match 1`] = `
           alt="Drapeau français"
           class="LanguageSelector__flags"
           data-testid="LanguageSelectorButton--french"
-          src="/src/assets/logos/languages/FrenchFlag.svg"
+          src="/Portfolio/src/assets/logos/languages/FrenchFlag.svg"
         />
         <div
           class="LanguageSelector__button undefined"
@@ -27,7 +27,7 @@ exports[`The LanguageSelector component > the snapshot match 1`] = `
           alt="Drapeau du Royaume-Uni"
           class="LanguageSelector__flags"
           data-testid="LanguageSelectorButton--english"
-          src="/src/assets/logos/languages/UkFlag.svg"
+          src="/Portfolio/src/assets/logos/languages/UkFlag.svg"
         />
       </div>
     </div>
@@ -40,7 +40,7 @@ exports[`The LanguageSelector component > the snapshot match 1`] = `
         alt="Drapeau français"
         class="LanguageSelector__flags"
         data-testid="LanguageSelectorButton--french"
-        src="/src/assets/logos/languages/FrenchFlag.svg"
+        src="/Portfolio/src/assets/logos/languages/FrenchFlag.svg"
       />
       <div
         class="LanguageSelector__button undefined"
@@ -55,7 +55,7 @@ exports[`The LanguageSelector component > the snapshot match 1`] = `
         alt="Drapeau du Royaume-Uni"
         class="LanguageSelector__flags"
         data-testid="LanguageSelectorButton--english"
-        src="/src/assets/logos/languages/UkFlag.svg"
+        src="/Portfolio/src/assets/logos/languages/UkFlag.svg"
       />
     </div>
   </div>,
