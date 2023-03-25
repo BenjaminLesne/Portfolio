@@ -30,7 +30,7 @@ In your terminal, inside any folder:
 
 In the root folder, in your terminal, run:
 
-- pnpm deploy
+- pnpm run deploy
 - Then go to: the github repository > settings > pages
 - Wait until "Your site is published at" becomes green.
 - Then, check the result in your browser at https://benjaminlesne.github.io/Portfolio/
