@@ -1,14 +1,19 @@
 //technologies related logos
+import trpcLogo from "../../../assets/logos/skills/trpc.svg";
+import drizzleLogo from "../../../assets/logos/skills/drizzle.svg";
+import bunLogo from "../../../assets/logos/skills/bun.svg";
+import prismaLogo from "../../../assets/logos/skills/prisma.svg";
+import nodeLogo from "../../../assets/logos/skills/node.svg";
+import nextLogo from "../../../assets/logos/skills/next.svg";
+import tailwindLogo from "../../../assets/logos/skills/tailwind.svg";
 import reactLogo from "../../../assets/logos/skills/React.svg";
 import javaScriptLogo from "../../../assets/logos/skills/JS.svg";
 import reduxLogo from "../../../assets/logos/skills/redux.svg";
 import jestLogo from "../../../assets/logos/skills/Jest.svg";
 import gitLogo from "../../../assets/logos/skills/Git.svg";
-import sassLogo from "../../../assets/logos/skills/Sass.svg";
 import css3Logo from "../../../assets/logos/skills/CSS3.svg";
 import html5Logo from "../../../assets/logos/skills/HTML5.svg";
 import agileLogo from "../../../assets/logos/skills/Agile.svg";
-import phpLogo from "../../../assets/logos/skills/PHP.svg";
 import typeScriptLogo from "../../../assets/logos/skills/TypeScript.svg";
 import storyBookLogo from "../../../assets/logos/skills/Storybook.svg";
 import i18nextLogo from "../../../assets/logos/skills/i18next.svg";
@@ -25,6 +30,26 @@ export const skillsData = [
   {
     headingKey: "usingNow.heading",
     content: [
+      {
+        logo: nextLogo,
+        nameKey: "next",
+      },
+      {
+        logo: tailwindLogo,
+        nameKey: "Tailwind",
+      },
+      {
+        logo: prismaLogo,
+        nameKey: "Prisma",
+      },
+      {
+        logo: drizzleLogo,
+        nameKey: "Dizzle",
+      },
+      {
+        logo: trpcLogo,
+        nameKey: "tRPC",
+      },
       {
         logo: reactLogo,
         nameKey: "react",
@@ -62,16 +87,20 @@ export const skillsData = [
         nameKey: "vite",
       },
       {
+        logo: nodeLogo,
+        nameKey: "node",
+      },
+      {
+        logo: bunLogo,
+        nameKey: "bun",
+      },
+      {
         logo: reduxLogo,
         nameKey: "redux",
       },
       {
         logo: vitestLogo,
         nameKey: "vitest",
-      },
-      {
-        logo: sassLogo,
-        nameKey: "sass",
       },
       {
         logo: i18nextLogo,
@@ -84,10 +113,6 @@ export const skillsData = [
       {
         logo: agileLogo,
         nameKey: "Agile",
-      },
-      {
-        logo: phpLogo,
-        nameKey: "PHP",
       },
     ],
   },

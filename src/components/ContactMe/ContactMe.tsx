@@ -6,7 +6,7 @@ import { linksData } from "./utils/data";
 
 export const ContactMe = () => {
   const [linkComponents, setLinkComponents] = useState<JSX.Element[] | null>(
-    null
+    null,
   );
   const { t, i18n } = useTranslation();
   const email = t("email", { ns: "contactMe" });
@@ -23,8 +23,8 @@ export const ContactMe = () => {
               <EmailButton email={email} />
               <span className="ContactMe__value">{email}</span>
             </li>
-            {linksData.map(({ icon, translationKey }) => (
-              <li className="ContactMe__item" key={crypto.randomUUID()}>
+            {linksData.map(({ icon, translationKey }, index) => (
+              <li className="ContactMe__item" key={index}>
                 <a
                   href={t(`${translationKey}.href`, {
                     ns: "contactMe",

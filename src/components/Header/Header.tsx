@@ -37,9 +37,9 @@ export const Header = () => {
           onClick={() => handleCloseNavigation()}
         ></button>
         <ul className="Header__list-of-anchors">
-          {textContent.map((item) => {
+          {textContent.map((item, index) => {
             return (
-              <li key={crypto.randomUUID()}>
+              <li key={index}>
                 <a
                   className="Header__anchor"
                   href={item.href}

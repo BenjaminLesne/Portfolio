@@ -10,20 +10,20 @@ export const Skills = () => {
     <section className="Skills" id="skills" data-testid="skills">
       <h2 className="Skills__heading section-heading">{sectionHeading}</h2>
       <div className="Skills__subSections">
-        {skillsData.map((subSection) => {
+        {skillsData.map((subSection, index) => {
           return (
-            <section className="Skills__subSection" key={crypto.randomUUID()}>
+            <section className="Skills__subSection" key={index}>
               <h3 className="Skills__subHeading">
                 {t(subSection.headingKey, { ns: "skills", defaultValue: "" })}:
               </h3>
               <ul className="Skills__items">
-                {subSection.content.map((item) => {
+                {subSection.content.map((item, index) => {
                   const itemValue = t(item.nameKey, {
                     ns: "skills",
                     defaultValue: item.nameKey,
                   });
                   return (
-                    <li key={crypto.randomUUID()} className="Skills__item">
+                    <li key={index} className="Skills__item">
                       <div className="Skills__logo-wrapper">
                         <img
                           className="Skills__logo"

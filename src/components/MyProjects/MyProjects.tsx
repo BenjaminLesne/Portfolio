@@ -12,7 +12,7 @@ export const MyProjects = () => {
       <h2 className="MyProjects__heading section-heading">{heading}</h2>
       <div className="MyProjects__showcase">
         <ol className="MyProjects__projects">
-          {myProjectsData.map((project) => {
+          {myProjectsData.map((project, index) => {
             const ref = useRef<HTMLLIElement | null>(null);
             const projectProps = {
               name: project.name,
@@ -29,7 +29,7 @@ export const MyProjects = () => {
             return (
               <li
                 className="MyProjects__project"
-                key={crypto.randomUUID()}
+                key={index}
                 ref={ref}
                 onClick={
                   () => ref.current?.firstElementChild?.classList.toggle("show") // makes mobile devices trigger the hover style
