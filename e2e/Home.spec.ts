@@ -56,15 +56,11 @@ test.describe("The Home page", () => {
   test("match snapshots", async ({ page }) => {
     const ukFlag = page.getByTestId("LanguageSelectorButton--english");
     await ukFlag.click();
-    expect(await page.screenshot({ fullPage: true })).toMatchSnapshot({
-      name: "home-english.png",
-    });
+    await expect(page).toHaveScreenshot({ fullPage: true });
 
     const frFlag = page.getByTestId("LanguageSelectorButton--french");
     await frFlag.click();
 
-    expect(await page.screenshot({ fullPage: true })).toMatchSnapshot({
-      name: "home-french.png",
-    });
+    await expect(page).toHaveScreenshot({ fullPage: true });
   });
 });

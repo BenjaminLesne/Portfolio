@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "tsc && vitest run && playwright test",
+    "e2e:update:snapshots": "playwright test --update-snapshots",
     "coverage": "vitest run --coverage",
     "prepare": "husky install",
     "deploy": "rm -rf dist && pnpm build && gh-pages -d dist"
