@@ -1,7 +1,9 @@
 //technologies related logos
+import dockerLogo from "../../../assets/logos/skills/docker.svg";
+import zodLogo from "../../../assets/logos/skills/zod.svg";
+import shadcnUiLogo from "../../../assets/logos/skills/shadcn-ui.svg";
 import trpcLogo from "../../../assets/logos/skills/trpc.svg";
 import drizzleLogo from "../../../assets/logos/skills/drizzle.svg";
-import bunLogo from "../../../assets/logos/skills/bun.svg";
 import prismaLogo from "../../../assets/logos/skills/prisma.svg";
 import nodeLogo from "../../../assets/logos/skills/node.svg";
 import nextLogo from "../../../assets/logos/skills/next.svg";
@@ -31,16 +33,16 @@ export const skillsData = [
     headingKey: "usingNow.heading",
     content: [
       {
+        logo: typeScriptLogo,
+        nameKey: "typescript",
+      },
+      {
         logo: nextLogo,
         nameKey: "next",
       },
       {
         logo: tailwindLogo,
         nameKey: "Tailwind",
-      },
-      {
-        logo: prismaLogo,
-        nameKey: "Prisma",
       },
       {
         logo: drizzleLogo,
@@ -51,12 +53,28 @@ export const skillsData = [
         nameKey: "tRPC",
       },
       {
-        logo: reactLogo,
-        nameKey: "react",
+        logo: shadcnUiLogo,
+        nameKey: "shadcn-ui",
       },
       {
-        logo: typeScriptLogo,
-        nameKey: "typescript",
+        logo: zodLogo,
+        nameKey: "zod",
+      },
+      {
+        logo: dockerLogo,
+        nameKey: "docker",
+      },
+      {
+        logo: playwrightLogo,
+        nameKey: "playwright",
+      },
+      {
+        logo: prismaLogo,
+        nameKey: "Prisma",
+      },
+      {
+        logo: reactLogo,
+        nameKey: "react",
       },
       {
         logo: javaScriptLogo,
@@ -79,20 +97,12 @@ export const skillsData = [
         nameKey: "react testing library",
       },
       {
-        logo: playwrightLogo,
-        nameKey: "playwright",
-      },
-      {
         logo: viteLogo,
         nameKey: "vite",
       },
       {
         logo: nodeLogo,
         nameKey: "node",
-      },
-      {
-        logo: bunLogo,
-        nameKey: "bun",
       },
       {
         logo: reduxLogo,
