@@ -46,7 +46,7 @@ export const skillsData = [
       },
       {
         logo: drizzleLogo,
-        nameKey: "Dizzle",
+        nameKey: "drizzle",
       },
       {
         logo: trpcLogo,
