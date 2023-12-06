@@ -3,17 +3,17 @@
     {
       "type": "anchor",
       "linkText": "compétences",
-      "href": "/#skills"
+      "href": "#skills"
     },
     {
       "type": "anchor",
       "linkText": "mes projets",
-      "href": "/#my-projects"
+      "href": "#my-projects"
     },
     {
       "type": "anchor",
       "linkText": "me contacter",
-      "href": "/#contact-me"
+      "href": "#contact-me"
     },
     {
       "type": "pdf",

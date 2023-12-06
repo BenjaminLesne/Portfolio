@@ -6,11 +6,14 @@ import {
   Skills,
   MyProjects,
   ContactMe,
+  Header,
+  Footer,
 } from "./components/components";
 
 function App() {
   return (
     <>
+      <Header />
       <main>
         <Hero />
         <AboutMe />
@@ -18,6 +21,7 @@ function App() {
         <MyProjects />
         <ContactMe />
       </main>
+      <Footer />
     </>
   );
 }

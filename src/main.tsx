@@ -6,7 +6,6 @@ import "./translation/config";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { NotOpenSource } from "./components/NotOpenSource/NotOpenSource";
-import { Footer, Header } from "./components/components";
 
 const router = createBrowserRouter([
   {
@@ -29,8 +28,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <Header />
     <RouterProvider router={router} />
-    <Footer />
   </React.StrictMode>,
 );
