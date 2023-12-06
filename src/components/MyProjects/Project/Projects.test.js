@@ -1,6 +1,9 @@
+import React from "react";
 import { render, screen } from "@testing-library/react";
 
 import Project from "./";
+import { test } from "vitest";
+import { expect } from "vitest";
 
 test("renders french text", async () => {
   render(
@@ -11,7 +14,7 @@ test("renders french text", async () => {
       sourceCodeUrl="Hrnet link to srouce code test"
       websiteUrl="HRnet link to website test"
       language={"FR"}
-    />
+    />,
   );
 
   const name = screen.getByText(/name HRnet test/i);
