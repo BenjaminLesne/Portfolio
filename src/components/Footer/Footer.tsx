@@ -13,7 +13,7 @@ export const Footer = () => {
         <span>{t("backToTop", { ns: "footer" })}</span>
       </a>
       <small className="Footer__copyrights">
-        ©{t("copyrights.year", { ns: "footer" }) + " " + t("utils.author")}
+        ©{new Date().getFullYear() + " " + t("utils.author")}
         <span className="Footer__all-rights-reserved">
           {" " + t("copyrights.allRightsReserved", { ns: "footer" })}
         </span>

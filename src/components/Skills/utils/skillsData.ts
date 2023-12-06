@@ -23,6 +23,7 @@ import viteLogo from "../../../assets/logos/skills/Vite.svg";
 import vitestLogo from "../../../assets/logos/skills/Vitest.svg";
 import playwrightLogo from "../../../assets/logos/skills/Playwright.svg";
 import reactTestingLibraryLogo from "../../../assets/logos/skills/ReactTestingLibrary.png";
+import vercelLogo from "../../../assets/logos/skills/vercel.svg";
 
 //languages spoken related
 import UkFlag from "../../../assets/logos/languages/UkFlag.svg";
@@ -41,8 +42,12 @@ export const skillsData = [
         nameKey: "next",
       },
       {
+        logo: vercelLogo,
+        nameKey: "vercel",
+      },
+      {
         logo: tailwindLogo,
-        nameKey: "Tailwind",
+        nameKey: "Tailwindcss",
       },
       {
         logo: drizzleLogo,
