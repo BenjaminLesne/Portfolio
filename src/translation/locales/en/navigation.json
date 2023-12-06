@@ -3,22 +3,22 @@
     {
       "type": "anchor",
       "linkText": "skills",
-      "href": "#skills"
+      "href": "/#skills"
     },
     {
       "type": "anchor",
       "linkText": "my projects",
-      "href": "#my-projects"
+      "href": "/#my-projects"
     },
     {
       "type": "anchor",
       "linkText": "contact me",
-      "href": "#contact-me"
+      "href": "/#contact-me"
     },
     {
       "type": "pdf",
       "linkText": "resume",
-      "href": "/Portfolio/src/assets/CV/CV_Benjamin-Lesne_EN.pdf"
+      "href": "/src/assets/CV/CV_Benjamin-Lesne_EN.pdf"
     }
   ]
 }
