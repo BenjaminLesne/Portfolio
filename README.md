@@ -36,3 +36,11 @@ In the root folder, in your terminal, run:
 - Then, check the result in your browser at https://benjaminlesne.github.io/Portfolio/
 
 **If the website is running without the new changes, try to clear your cache.**
+
+## useful info
+
+to skip the pipeline you have to pass the flag `--no-verify` like so:
+
+```bash
+git push --no-verify
+```
