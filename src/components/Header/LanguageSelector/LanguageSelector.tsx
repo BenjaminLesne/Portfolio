@@ -17,8 +17,9 @@ export const LanguageSelector = () => {
 
   useEffect(() => {
     const lang = searchParams.get("lang");
+    const value = lang || "fr";
 
-    lang && changeLanguage(lang);
+    changeLanguage(value);
   }, []);
 
   return (

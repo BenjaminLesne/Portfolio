@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Project.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
