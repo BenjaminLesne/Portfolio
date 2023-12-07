@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
 import { EmailButton } from "./EmailButton/EmailButton";
 import { useTranslation } from "react-i18next";
 import { linksData } from "./utils/data";
+import { Link } from "react-router-dom";
 
 export const ContactMe = () => {
-  const [linkComponents, setLinkComponents] = useState<JSX.Element[] | null>(
-    null,
-  );
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const email = t("email", { ns: "contactMe" });
 
   return (
@@ -25,8 +23,8 @@ export const ContactMe = () => {
             </li>
             {linksData.map(({ icon, translationKey }, index) => (
               <li className="ContactMe__item" key={index}>
-                <a
-                  href={t(`${translationKey}.href`, {
+                <Link
+                  to={t(`${translationKey}.href`, {
                     ns: "contactMe",
                     defaultValue: "#",
                   })}
@@ -37,7 +35,7 @@ export const ContactMe = () => {
                     ns: "contactMe",
                     defaultValue: "",
                   })}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
