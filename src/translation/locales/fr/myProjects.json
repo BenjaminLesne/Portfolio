@@ -1,11 +1,11 @@
 {
   "heading": "mes projets",
   "jegwell": {
-    "description": "E-commerce officiel de Jegwell. C'est une marque de bijoux faits-main avec plus de 6000 followers sur instagram !",
+    "description": "[EN CONSTRUCTION] E-commerce officiel de Jegwell. C'est une marque de bijoux faits-main avec plus de 6000 followers sur instagram !",
     "alt": "capture d'écran du site Jegwell.fr"
   },
-  "ohmyfood": {
-    "description": "Site mobile-first qui répertorie les menus de restaurants gastronomiques (Projet de la formation OpenClassrooms).",
-    "alt": "capture d'écran du site web ohmyfood"
+  "plateforme": {
+    "description": "Site web de gestion d’évènements et de suivi de candidats. Identifiants de test: 'test@guerrillamail.info', mot de passe: 'password'.",
+    "alt": "capture d'écran du site Plateforme Focale"
   }
 }

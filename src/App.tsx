@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import {
-  Header,
   Hero,
   AboutMe,
   Skills,
   MyProjects,
   ContactMe,
+  Header,
   Footer,
 } from "./components/components";
 

@@ -1,22 +1,23 @@
 import jegwellPath from "../../../assets/website-screenshots/Jegwell.png";
-import ohmyfoodPath from "../../../assets/website-screenshots/ohmyfood.png";
+import plateforme from "../../../assets/website-screenshots/plateforme-focale.png";
+import { NOT_OPEN_SOURCE_URL } from "../../../utils/constants";
 export const myProjectsData = [
   {
-    name: "Jegwell",
-    websiteUrl: "https://jegwell.fr",
-    sourceCodeUrl: "https://github.com/BenjaminLesne/Jegwell",
+    name: "Plateforme Focale",
+    websiteUrl: "https://focale-stg1-fe.osc-fr1.scalingo.io/",
+    sourceCodeUrl: NOT_OPEN_SOURCE_URL,
     colorMask: "75, 131, 130",
+    imagePath: plateforme,
+    descriptionKey: "plateforme.description",
+    altKey: "plateforme.alt",
+  },
+  {
+    name: "Jegwell",
+    websiteUrl: "https://jegwell.vercel.app/",
+    sourceCodeUrl: "https://github.com/BenjaminLesne/Jegwell",
+    colorMask: "157, 83, 83",
     imagePath: jegwellPath,
     descriptionKey: "jegwell.description",
     altKey: "jegwell.alt",
-  },
-  {
-    name: "ohmyfood",
-    websiteUrl: "https://benjaminlesne.github.io/benjaminLesne_3_03102021/",
-    sourceCodeUrl: "https://github.com/BenjaminLesne/benjaminLesne_3_03102021/",
-    colorMask: "157, 83, 83",
-    imagePath: ohmyfoodPath,
-    descriptionKey: "ohmyfood.description",
-    altKey: "ohmyfood.alt",
   },
 ];

@@ -7,6 +7,8 @@ import myProjects from "./myProjects.json";
 import glossary from "./glossary.json";
 import contactMe from "./contactMe.json";
 import footer from "./footer.json";
+import notOpenSource from "./notOpenSource.json";
+
 export {
   common,
   navigation,
@@ -17,4 +19,5 @@ export {
   glossary,
   contactMe,
   footer,
+  notOpenSource,
 };

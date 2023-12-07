@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Project.css";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 type Props = {
   name: string;
   description: string;
@@ -38,22 +39,12 @@ export const Project = ({
         <figcaption className="Project__information">
           <p className="Project__description">{description}</p>
           <div className="Project__links">
-            <a
-              href={websiteUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="Project__link"
-            >
+            <Link to={websiteUrl} rel="noreferrer" className="Project__link">
               {t("website", { ns: "glossary" })}
-            </a>
-            <a
-              href={sourceCodeUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="Project__link"
-            >
+            </Link>
+            <Link to={sourceCodeUrl} rel="noreferrer" className="Project__link">
               code
-            </a>
+            </Link>
           </div>
         </figcaption>
       </figure>

@@ -8,5 +8,4 @@ export default defineConfig({
     environment: "jsdom",
     include: ["src/**/*.test.tsx"],
   },
-  base: "/Portfolio/",
 });
