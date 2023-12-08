@@ -2,11 +2,11 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import absolutlyProprietary from "../../assets/absolutely-proprietary.webp";
 import "./notOpenSource.css";
-import { Header } from "../components";
 import { Link } from "react-router-dom";
 
 export const NotOpenSource = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { language } = i18n;
 
   return (
     <>
@@ -19,7 +19,9 @@ export const NotOpenSource = () => {
           className="image"
         />
 
-        <Link to="/">{t("goBack", { ns: "notOpenSource" })}</Link>
+        <Link to={`/?lang=${language}`}>
+          {t("goBack", { ns: "notOpenSource" })}
+        </Link>
       </main>
     </>
   );
