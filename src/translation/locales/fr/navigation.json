@@ -14,11 +14,6 @@
       "type": "anchor",
       "linkText": "me contacter",
       "href": "#contact-me"
-    },
-    {
-      "type": "pdf",
-      "linkText": "cv",
-      "href": "/src/assets/CV/CV_Benjamin-Lesne_FR.pdf"
     }
   ]
 }
