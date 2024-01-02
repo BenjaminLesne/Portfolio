@@ -24,6 +24,8 @@ import vitestLogo from "../../../assets/logos/skills/Vitest.svg";
 import playwrightLogo from "../../../assets/logos/skills/Playwright.svg";
 import reactTestingLibraryLogo from "../../../assets/logos/skills/ReactTestingLibrary.png";
 import vercelLogo from "../../../assets/logos/skills/vercel.svg";
+import vueLogo from "../../../assets/logos/skills/Vue.svg";
+import jiraLogo from "../../../assets/logos/skills/jira.svg";
 
 //languages spoken related
 import UkFlag from "../../../assets/logos/languages/UkFlag.svg";
@@ -33,6 +35,30 @@ export const skillsData = [
   {
     headingKey: "usingNow.heading",
     content: [
+      {
+        logo: vueLogo,
+        nameKey: "Vue",
+      },
+      {
+        logo: tailwindLogo,
+        nameKey: "Tailwindcss",
+      },
+      {
+        logo: jestLogo,
+        nameKey: "jest",
+      },
+      {
+        logo: dockerLogo,
+        nameKey: "docker",
+      },
+      {
+        logo: jiraLogo,
+        nameKey: "Jira",
+      },
+      {
+        logo: nodeLogo,
+        nameKey: "node",
+      },
       {
         logo: typeScriptLogo,
         nameKey: "typescript",
@@ -44,10 +70,6 @@ export const skillsData = [
       {
         logo: vercelLogo,
         nameKey: "vercel",
-      },
-      {
-        logo: tailwindLogo,
-        nameKey: "Tailwindcss",
       },
       {
         logo: drizzleLogo,
@@ -64,10 +86,6 @@ export const skillsData = [
       {
         logo: zodLogo,
         nameKey: "zod",
-      },
-      {
-        logo: dockerLogo,
-        nameKey: "docker",
       },
       {
         logo: playwrightLogo,
@@ -94,20 +112,12 @@ export const skillsData = [
         nameKey: "html5",
       },
       {
-        logo: jestLogo,
-        nameKey: "jest",
-      },
-      {
         logo: reactTestingLibraryLogo,
         nameKey: "react testing library",
       },
       {
         logo: viteLogo,
         nameKey: "vite",
-      },
-      {
-        logo: nodeLogo,
-        nameKey: "node",
       },
       {
         logo: reduxLogo,
