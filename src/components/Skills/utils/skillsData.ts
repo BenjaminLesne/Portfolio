@@ -24,7 +24,7 @@ import vitestLogo from "../../../assets/logos/skills/Vitest.svg";
 import playwrightLogo from "../../../assets/logos/skills/Playwright.svg";
 import reactTestingLibraryLogo from "../../../assets/logos/skills/ReactTestingLibrary.png";
 import vercelLogo from "../../../assets/logos/skills/vercel.svg";
-import vueLogo from "../../../assets/logos/skills/Vue.svg";
+// import vueLogo from "../../../assets/logos/skills/Vue.svg";
 import jiraLogo from "../../../assets/logos/skills/jira.svg";
 
 //languages spoken related
@@ -36,8 +36,8 @@ export const skillsData = [
     headingKey: "usingNow.heading",
     content: [
       {
-        logo: vueLogo,
-        nameKey: "Vue",
+        logo: reactLogo,
+        nameKey: "react",
       },
       {
         logo: tailwindLogo,
@@ -94,10 +94,6 @@ export const skillsData = [
       {
         logo: prismaLogo,
         nameKey: "Prisma",
-      },
-      {
-        logo: reactLogo,
-        nameKey: "react",
       },
       {
         logo: javaScriptLogo,
