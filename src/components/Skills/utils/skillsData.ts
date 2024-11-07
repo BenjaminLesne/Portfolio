@@ -137,15 +137,15 @@ export const skillsData = [
       },
     ],
   },
-  {
-    headingKey: "learning.heading",
-    content: [
-      {
-        logo: storyBookLogo,
-        nameKey: "Storybook",
-      },
-    ],
-  },
+  // {
+  //   headingKey: "learning.heading",
+  //   content: [
+  //     {
+  //       logo: storyBookLogo,
+  //       nameKey: "Storybook",
+  //     },
+  //   ],
+  // },
   {
     headingKey: "whatIspeak.heading",
     content: [
