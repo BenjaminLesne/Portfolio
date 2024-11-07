@@ -7,5 +7,9 @@
   "plateforme": {
     "description": "Site web de gestion d’évènements et de suivi de candidats. Identifiants de test: 'test@guerrillamail.info', mot de passe: 'password'.",
     "alt": "capture d'écran du site Plateforme Focale"
+  },
+  "scenarioExplorer": {
+    "description": "Un dashboard interactif visualisant les émissions de carbone des bâtiments fourni par la Commission Européenne. Il présente les étapes de l'ACV, les types de bâtiments, et plus encore. Différentes stratégies de réduction des émissions sont visualisable.",
+    "alt": "capture d'écran du Scenario explorer"
   }
 }
