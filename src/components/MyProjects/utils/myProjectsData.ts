@@ -25,7 +25,8 @@ export const myProjectsData = [
   {
     name: "Scenario explorer",
     websiteUrl: undefined,
-    videoUrl: "https://youtu.be/868JaLY1gSU",
+    // videoUrl: "https://youtu.be/868JaLY1gSU",
+    videoUrl: undefined,
     sourceCodeUrl: NOT_OPEN_SOURCE_URL,
     colorMask: "157, 83, 83",
     imagePath: scenarioExplorerUrl,
