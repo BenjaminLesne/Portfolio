@@ -5,11 +5,11 @@
     "alt": "screenshot of the Jegwell.fr website"
   },
   "plateforme": {
-    "description": "Event management and candidate follow up website. Staging login: 'test@guerrillamail.info', password: 'password'.",
+    "description": "Event management and candidate follow up website.",
     "alt": "screenshot of Plateforme Focale website"
   },
   "scenarioExplorer": {
-    "description": "An interactive dashboard visualizing carbon emissions of building stock provided by the European Commission. It shows LCA stages, building types, and more. Various emission reduction strategies are visualizable.",
+    "description": "An interactive dashboard visualizing carbon emissions of building stock. It shows LCA stages, building types, and more. Various emission reduction strategies are visualizable. Funded by the European Commission",
     "alt": "screenshot of Scenario explorer"
   }
 }

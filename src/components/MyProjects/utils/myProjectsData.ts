@@ -1,13 +1,15 @@
 import scenarioExplorerUrl from "../../../assets/website-screenshots/scenarioExplorer.png";
+import plateformeUrl from "../../../assets/website-screenshots/plateforme-focale.png";
 import { NOT_OPEN_SOURCE_URL } from "../../../utils/constants";
 
 export const myProjectsData = [
   // {
   //   name: "Plateforme Focale",
-  //   websiteUrl: "https://focale-stg1-fe.osc-fr1.scalingo.io/",
+  //   websiteUrl: "http://rtrexperience.org/",
+  //   videoUrl: "https://www.youtube.com/watch?v=",
   //   sourceCodeUrl: NOT_OPEN_SOURCE_URL,
   //   colorMask: "75, 131, 130",
-  //   imagePath: plateforme,
+  //   imagePath: plateformeUrl,
   //   descriptionKey: "plateforme.description",
   //   altKey: "plateforme.alt",
   // },
@@ -22,7 +24,8 @@ export const myProjectsData = [
   // },
   {
     name: "Scenario explorer",
-    websiteUrl: "https://ae-scenario-explorer.cloud.set.kuleuven.be",
+    websiteUrl: undefined,
+    videoUrl: "https://youtu.be/868JaLY1gSU",
     sourceCodeUrl: NOT_OPEN_SOURCE_URL,
     colorMask: "157, 83, 83",
     imagePath: scenarioExplorerUrl,

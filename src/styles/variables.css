@@ -9,7 +9,7 @@
   --header-anchor-padding: 5px;
   --button-hover-transition: 0.4s ease-in-out;
   --aside-transition-icon: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  --project-width: clamp(300px, 40vw, 375px);
+  --project-width: clamp(300px, 45vw, 500px);
   --project-height: calc(var(--project-width) / 3 * 2);
   --skills-section-big-gap: 50px;
   --skills-section-medium-gap: 30px;
