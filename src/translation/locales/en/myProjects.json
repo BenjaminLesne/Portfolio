@@ -5,7 +5,11 @@
     "alt": "screenshot of the Jegwell.fr website"
   },
   "plateforme": {
-    "description": "Event management and candidate follow up website. Staging login: 'test@guerrillamail.info', password: 'password'.",
+    "description": "Event management and candidate follow up website.",
     "alt": "screenshot of Plateforme Focale website"
+  },
+  "scenarioExplorer": {
+    "description": "Interactive tool for visualizing carbon emissions across building stock, showcasing various carbon reduction strategies. Carbon emissions can be broken down by LCA stages, building types, and more.",
+    "alt": "screenshot of Scenario explorer"
   }
 }

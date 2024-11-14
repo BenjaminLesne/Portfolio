@@ -6,7 +6,7 @@ type Props = {
   name: string;
   description: string;
   sourceCodeUrl: string;
-  websiteUrl: string;
+  websiteUrl: string | undefined;
   imagePath: string;
   alt: string;
   colorMask: string;
@@ -21,6 +21,7 @@ export const Project = ({
   colorMask,
 }: Props) => {
   const { t } = useTranslation();
+
   return (
     <article className="Project">
       <figure className="Project__content-wrapper">
@@ -39,8 +40,13 @@ export const Project = ({
         <figcaption className="Project__information">
           <p className="Project__description">{description}</p>
           <div className="Project__links">
-            <Link to={websiteUrl} rel="noreferrer" className="Project__link">
-              {t("website", { ns: "glossary" })}
+            {websiteUrl ? (
+              <Link to={websiteUrl} rel="noreferrer" className="Project__link">
+                {t("website", { ns: "glossary" })}
+              </Link>
+            ) : null}
+            <Link to={imagePath} rel="noreferrer" className="Project__link">
+              screenshot
             </Link>
             <Link to={sourceCodeUrl} rel="noreferrer" className="Project__link">
               code

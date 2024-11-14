@@ -13,7 +13,7 @@ export const Skills = () => {
         {skillsData.map((subSection, index) => {
           return (
             <section className="Skills__subSection" key={index}>
-              <h3 className="Skills__subHeading">
+              <h3 className="Skills__subHeading mb-2">
                 {t(subSection.headingKey, { ns: "skills", defaultValue: "" })}:
               </h3>
               <ul className="Skills__items">
