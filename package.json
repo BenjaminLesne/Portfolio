@@ -13,7 +13,8 @@
     "unit:update:snapshots": "vitest --update",
     "coverage": "vitest run --coverage",
     "prepare": "husky install",
-    "deploy": "rm -rf dist && pnpm build && gh-pages -d dist"
+    "deploy": "rm -rf dist && pnpm build && gh-pages -d dist",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",

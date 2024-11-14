@@ -7,7 +7,6 @@ type Props = {
   description: string;
   sourceCodeUrl: string;
   websiteUrl: string | undefined;
-  videoUrl: string | undefined;
   imagePath: string;
   alt: string;
   colorMask: string;
@@ -20,7 +19,6 @@ export const Project = ({
   imagePath,
   alt,
   colorMask,
-  videoUrl,
 }: Props) => {
   const { t } = useTranslation();
 
@@ -45,11 +43,6 @@ export const Project = ({
             {websiteUrl ? (
               <Link to={websiteUrl} rel="noreferrer" className="Project__link">
                 {t("website", { ns: "glossary" })}
-              </Link>
-            ) : null}
-            {videoUrl ? (
-              <Link to={videoUrl} rel="noreferrer" className="Project__link">
-                video
               </Link>
             ) : null}
             <Link to={imagePath} rel="noreferrer" className="Project__link">
