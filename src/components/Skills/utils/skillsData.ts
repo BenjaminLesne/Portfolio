@@ -40,16 +40,28 @@ export const skillsData = [
         nameKey: "react",
       },
       {
-        logo: tailwindLogo,
-        nameKey: "Tailwindcss",
+        logo: dockerLogo,
+        nameKey: "docker",
+      },
+      {
+        logo: playwrightLogo,
+        nameKey: "playwright",
       },
       {
         logo: jestLogo,
         nameKey: "jest",
       },
       {
-        logo: dockerLogo,
-        nameKey: "docker",
+        logo: reactTestingLibraryLogo,
+        nameKey: "react testing library",
+      },
+      {
+        logo: agileLogo,
+        nameKey: "Agile",
+      },
+      {
+        logo: tailwindLogo,
+        nameKey: "Tailwindcss",
       },
       {
         logo: jiraLogo,
@@ -88,10 +100,6 @@ export const skillsData = [
         nameKey: "zod",
       },
       {
-        logo: playwrightLogo,
-        nameKey: "playwright",
-      },
-      {
         logo: prismaLogo,
         nameKey: "Prisma",
       },
@@ -106,10 +114,6 @@ export const skillsData = [
       {
         logo: html5Logo,
         nameKey: "html5",
-      },
-      {
-        logo: reactTestingLibraryLogo,
-        nameKey: "react testing library",
       },
       {
         logo: viteLogo,
@@ -130,10 +134,6 @@ export const skillsData = [
       {
         logo: gitLogo,
         nameKey: "git",
-      },
-      {
-        logo: agileLogo,
-        nameKey: "Agile",
       },
     ],
   },
