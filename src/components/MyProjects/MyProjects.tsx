@@ -21,7 +21,7 @@ export const MyProjects = () => {
                 defaultValue: "",
               }),
               sourceCodeUrl: project.sourceCodeUrl,
-              videoUrl: project.videoUrl,
+              // videoUrl: project.videoUrl,
               websiteUrl: project.websiteUrl,
               imagePath: project.imagePath ?? "",
               alt: t(project.altKey, { ns: "myProjects", defaultValue: "" }),

@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 import { NotOpenSource } from "./components/NotOpenSource/NotOpenSource";
 
-const isStaticAsset = (path) => {
+const isStaticAsset = (path: string) => {
   const staticExtensions = [
     ".png",
     ".jpg",
