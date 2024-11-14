@@ -9,7 +9,7 @@
     "alt": "screenshot of Plateforme Focale website"
   },
   "scenarioExplorer": {
-    "description": "An interactive dashboard visualizing carbon emissions of building stock. It shows LCA stages, building types, and more. Various emission reduction strategies are visualizable. Funded by the European Commission",
+    "description": "Interactive tool for visualizing carbon emissions across building stock, showcasing various carbon reduction strategies. Carbon emissions can be broken down by LCA stages, building types, and more.",
     "alt": "screenshot of Scenario explorer"
   }
 }

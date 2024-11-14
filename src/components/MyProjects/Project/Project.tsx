@@ -52,6 +52,9 @@ export const Project = ({
                 video
               </Link>
             ) : null}
+            <Link to={imagePath} rel="noreferrer" className="Project__link">
+              screenshot
+            </Link>
             <Link to={sourceCodeUrl} rel="noreferrer" className="Project__link">
               code
             </Link>
