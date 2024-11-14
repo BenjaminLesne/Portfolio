@@ -11,7 +11,9 @@ export const NotOpenSource = () => {
   return (
     <>
       <main className="main-content">
-        <h1>{t("heading", { ns: "notOpenSource" })}</h1>
+        <h1 className="text-center text-2xl font-bold">
+          {t("heading", { ns: "notOpenSource" })}
+        </h1>
 
         <img
           src={absolutlyProprietary}
