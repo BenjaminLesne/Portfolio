@@ -20,7 +20,7 @@ export const MyProjects = () => {
                 ns: "myProjects",
                 defaultValue: "",
               }),
-              sourceCodeUrl: project.sourceCodeUrl,
+              // sourceCodeUrl: project.sourceCodeUrl,
               // videoUrl: project.videoUrl,
               websiteUrl: project.websiteUrl,
               imagePath: project.imagePath ?? "",

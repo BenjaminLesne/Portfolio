@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 type Props = {
   name: string;
   description: string;
-  sourceCodeUrl: string;
+  // sourceCodeUrl: string;
   websiteUrl: string | undefined;
   imagePath: string;
   alt: string;
@@ -14,7 +14,7 @@ type Props = {
 export const Project = ({
   name,
   description,
-  sourceCodeUrl,
+  // sourceCodeUrl,
   websiteUrl,
   imagePath,
   alt,
@@ -45,12 +45,17 @@ export const Project = ({
                 {t("website", { ns: "glossary" })}
               </Link>
             ) : null}
-            <Link to={imagePath} rel="noreferrer" className="Project__link">
+            <Link
+              to={imagePath}
+              rel="noreferrer"
+              className="Project__link"
+              target="_blank"
+            >
               screenshot
             </Link>
-            <Link to={sourceCodeUrl} rel="noreferrer" className="Project__link">
+            {/* <Link to={sourceCodeUrl} rel="noreferrer" className="Project__link">
               code
-            </Link>
+            </Link> */}
           </div>
         </figcaption>
       </figure>
