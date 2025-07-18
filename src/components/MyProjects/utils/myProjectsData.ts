@@ -24,9 +24,9 @@ export const myProjectsData = [
   // },
   {
     name: "Scenario explorer",
-    websiteUrl: undefined,
+    websiteUrl: "https://ae-scenario-explorer.cloud.set.kuleuven.be",
     // videoUrl: "https://youtu.be/868JaLY1gSU",
-    // sourceCodeUrl: NOT_OPEN_SOURCE_URL,
+    sourceCodeUrl: "https://github.com/mroeck/wlc-scenario-explorer",
     colorMask: "157, 83, 83",
     imagePath: "/scenarioExplorer.png",
     descriptionKey: "scenarioExplorer.description",
